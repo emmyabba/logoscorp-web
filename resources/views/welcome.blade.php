@@ -1,93 +1,34 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+@extends('layouts.welcome')
 
-        <title>LOGEAK</title>
+@section('content')
 
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+        <!-- Hero Start -->
+        <section class="bg-half-170 d-table w-100" id="home">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-7 col-md-7">
+                        <div class="title-heading mt-4">
+                            <div class="alert alert-light alert-pills shadow" role="alert">
+                                <span class="content heading mb-3"> Welcome.</span>
+                            </div>
+                            <h1 class="heading mb-3">at Logeak, we <span class="element text-primary" data-elements="build software products, deploy eLearning platforms and content, develope Web & Mobile Applications, conduct vulnerability analysis and threat modeling"></span> </h1>
+                            <p class="para-desc text-muted">Our solutions automate business processes to improve effeciency and productivity</p>
 
-        <!-- Styles -->
-        <style>
-            html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Nunito', sans-serif;
-                font-weight: 200;
-                height: 100vh;
-                margin: 0;
-            }
+                        </div>
+                    </div><!--end col-->
 
-            .full-height {
-                height: 100vh;
-            }
+                    <div class="col-lg-5 col-md-5 mt-4 pt-2 mt-sm-0 pt-sm-0">
+                        <div class="classic-app-image position-relative">
+                            <div class="bg-app-shape position-relative">
+                                <img src="{!! asset('theme/images/logeak-hero-image-1.svg')!!}" alt="">
+                            </div>
+                        </div>
 
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+        </section><!--end section-->
+        <!-- Hero End -->
 
-            .position-ref {
-                position: relative;
-            }
 
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
-
-            .content {
-                text-align: center;
-            }
-
-            .title {
-                font-size: 84px;
-            }
-
-            .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 13px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
-
-            .m-b-md {
-                margin-bottom: 30px;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
-
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}">Register</a>
-                        @endif
-                    @endauth
-                </div>
-            @endif
-
-            <div class="content">
-                <div class="title m-b-md">
-                    LOGEAK
-                </div>
-
-                <div class="links">
-                    <a href="#">We are working on it</a>
-                </div>
-            </div>
-        </div>
-    </body>
-</html>
+      @endsection

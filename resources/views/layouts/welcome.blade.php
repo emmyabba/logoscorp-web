@@ -23,7 +23,7 @@
         <link rel="stylesheet" href="{!! asset('theme/css/owl.theme.default.min.css') !!}"/>
         <!-- Main Css -->
         <link href="{!! asset('theme/css/style.css') !!}" rel="stylesheet" type="text/css" id="theme-opt" />
-        <link href="{!! asset('theme/css/colors/default.css') !!}" rel="stylesheet" id="color-opt">
+        <link href="{!! asset('theme/css/colors/red.css') !!}" rel="stylesheet" id="color-opt">
 
     </head>
 
@@ -93,6 +93,13 @@
         <!-- Icons -->
         <script src="{!! asset('theme/js/feather.min.js') !!}"></script>
         <script src="https://unicons.iconscout.com/release/v2.1.9/script/monochrome/bundle.js"></script>
+        <!-- Typed -->
+        <script src="{!! asset('theme/js/typed.js') !!}"></script>
+        <script src="{!! asset('theme/js/typed.init.js') !!}"></script>
+        <!-- Counter -->
+        <script src="{!! asset('theme/js/counter.init.js') !!}"></script>
+        <!-- Parallax -->
+        <script src="{!! asset('theme/js/parallax.js') !!}"></script>
         <!-- Main Js -->
         <script src="{!! asset('theme/js/app.js') !!}"></script>
     </body>
