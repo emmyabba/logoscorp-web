@@ -3,10 +3,10 @@
 
     <head>
         <meta charset="utf-8" />
-        <title>{{$title}}</title>
+    <title> @if ($title = ''): $title = 'LOGEAK'; {{$title}} @endif</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="{{$description}}" />
-        <meta name="keywords" content="{{$keywords}}" />
+        <meta name="description" content="@if ($description = ''): $description = 'LOGEAK'; {{$description}} @endif" />
+        <meta name="keywords" content="@if ($keywords = ''): $keywords = 'LOGEAK'; {{$keywords}} @endif" />
         <meta name="author" content="Logeak Solutions ltd" />
         <meta name="email" content="hello@logeaksolutions.com" />
         <meta name="website" content="https://www.logeaksolutions.in" />
@@ -23,7 +23,7 @@
         <link rel="stylesheet" href="{!! asset('theme/css/owl.theme.default.min.css') !!}"/>
         <!-- Main Css -->
         <link href="{!! asset('theme/css/style.css') !!}" rel="stylesheet" type="text/css" id="theme-opt" />
-        <link href="{!! asset('theme/css/colors/red.css') !!}" rel="stylesheet" id="color-opt">
+        <link href="{!! asset('theme/css/colors/purple.css') !!}" rel="stylesheet" id="color-opt">
 
     </head>
 
@@ -69,6 +69,7 @@
                     <ul class="navigation-menu">
                         <li><a href="/">Home</a></li>
                         <li><a href="{{route('contactus')}}">Contact Us</a></li>
+                        <li><a href="{{route('aboutus')}}">About Us</a></li>
                     </ul><!--end navigation menu-->
 
                 </div><!--end navigation-->

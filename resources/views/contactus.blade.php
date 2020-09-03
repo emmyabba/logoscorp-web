@@ -39,22 +39,9 @@
   <section class="section pb-0">
     <div class="container">
         <div class="row">
-            <div class="col-md-4">
-                <div class="card contact-detail text-center border-0">
-                    <div class="card-body p-0">
-                        <div class="icon">
-                            <img src="/theme/images/icon/bitcoin.svg" class="avatar avatar-small" alt="">
-                        </div>
-                        <div class="content mt-3">
-                            <h4 class="title font-weight-bold">Phone</h4>
-                            <p class="text-muted">Reach out on whatsapp</p>
-                            <a href="tel:+2348185877551" class="text-primary">+234 (0)818 587 7551</a>
-                        </div>
-                    </div>
-                </div>
-            </div><!--end col-->
 
-            <div class="col-md-4 mt-4 mt-sm-0 pt-2 pt-sm-0">
+
+            <div class="col-md-6 mt-4 mt-sm-0 pt-2 pt-sm-0">
                 <div class="card contact-detail text-center border-0">
                     <div class="card-body p-0">
                         <div class="icon">
@@ -69,7 +56,7 @@
                 </div>
             </div><!--end col-->
 
-            <div class="col-md-4 mt-4 mt-sm-0 pt-2 pt-sm-0">
+            <div class="col-md-6 mt-4 mt-sm-0 pt-2 pt-sm-0">
                 <div class="card contact-detail text-center border-0">
                     <div class="card-body p-0">
                         <div class="icon">

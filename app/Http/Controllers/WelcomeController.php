@@ -18,7 +18,15 @@ class WelcomeController extends Controller
     {
         $description    = 'contact us';
         $keywords        = 'contact us';
-        $title          = 'Contact Logeak +234(0)8185877551';
+        $title          = 'Contact Us';
+
+        return view('contactus', compact('title', 'keywords', 'description'));
+    }
+    public function aboutus()
+    {
+        $description    = 'About us';
+        $keywords        = 'contact us';
+        $title          = 'About Us';
 
         return view('contactus', compact('title', 'keywords', 'description'));
     }
