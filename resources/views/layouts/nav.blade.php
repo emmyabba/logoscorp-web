@@ -92,27 +92,7 @@
             </ul><!-- /.dropdown-menu -->
           </li><!-- /.nav-item -->
           <li class="nav__item  has-dropdown">
-            <a href="#" data-toggle="dropdown" class="dropdown-toggle nav__item-link">News&Media</a>
-            <ul class="dropdown-menu">
-              <li class="nav__item">
-                <a href="" class="nav__item-link">Our Blog</a>
-              </li><!-- /.nav-item -->
-              <li class="nav__item">
-                <a href="" class="nav__item-link">Single Blog Post</a>
-              </li><!-- /.nav-item -->
-              <li class="nav__item">
-                <a href="" class="nav__item-link">Case Studies Grid</a>
-              </li><!-- /.nav-item -->
-              <li class="nav__item">
-                <a href="" class="nav__item-link">Case Studies Modern</a>
-              </li><!-- /.nav-item -->
-              <li class="nav__item">
-                <a href="" class="nav__item-link">Case Studies Classic</a>
-              </li><!-- /.nav-item -->
-              <li class="nav__item">
-                <a href="" class="nav__item-link">Single Case Study</a>
-              </li><!-- /.nav-item -->
-            </ul><!-- /.dropdown-menu -->
+            <a href="#" data-toggle="dropdown" class="nav__item-link">Blog</a>
           </li><!-- /.nav-item -->
           <li class="nav__item">
             <a href="{{route('contactus')}}" class="nav__item-link">Contacts</a>

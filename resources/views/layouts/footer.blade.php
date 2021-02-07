@@ -24,11 +24,11 @@
                 <div class="footer-widget__content">
                   <nav>
                     <ul class="list-unstyled">
-                      <li><a href="about-us.html">About Us</a></li>
-                      <li><a href="leadership-team.html">Meet Our Team</a></li>
-                      <li><a href="blog.html">News & Media</a></li>
-                      <li><a href="projects-grid.html">Case Studies</a></li>
-                      <li><a href="contacs.html">Contacts</a></li>
+                      <li><a href="">About Us</a></li>
+                      <li><a href="">Meet Our Team</a></li>
+                      <li><a href="">Blog</a></li>
+                      <li><a href="">Case Studies</a></li>
+                      <li><a href="">Contacts</a></li>
                       <li><a href="#">Investors</a></li>
                     </ul>
                   </nav>
@@ -56,8 +56,8 @@
                     <ul class="list-unstyled">
                       <li><a href="pricing.html">Pricing and plans</a></li>
                       <li><a href="#">Terms of Service</a></li>
-                      <li><a href="faqs.html">Help & FAQ</a></li>
-                      <li><a href="contacs.html">Contact Us</a></li>
+                      <li><a href="">Help & FAQ</a></li>
+                      <li><a href="">Contact Us</a></li>
                       <li><a href="#">Site map</a></li>
                     </ul>
                   </nav>
@@ -66,8 +66,8 @@
               <div class="col-sm-6 col-md-6 col-lg-2 footer-widget footer-widget-nav">
                 <h6 class="footer-widget__title">We're Hiring</h6>
                 <div class="footer-widget__content">
-                  <p class="fz-14 color-white">Interested in joining the Mintech team?</p>
-                  <a href="careers.html" class="btn btn__primary btn__primary-style2 btn__link">
+                  <p class="fz-14 color-white">Interested in joining the Logeak team?</p>
+                  <a href="#" class="btn btn__primary btn__primary-style2 btn__link">
                     <span>Our Careers</span><i class="icon-arrow-right icon-outlined"></i>
                   </a>
                 </div><!-- /.footer-widget__content -->

@@ -2,6 +2,7 @@
 
 @section('content')
 
+@include('layouts.slider')
 
     <!-- ========================
       About Layout 1
@@ -24,11 +25,11 @@
                 <span>More About Us</span>
                 <i class="icon-arrow-right"></i>
               </a>
-              <img src="assets/images/about/singnture.png" alt="singnture" class="d-block">
+              <img src="{!! asset('theme/images/about/singnture.png') !!}" alt="singnture" class="d-block">
             </div><!-- /.col-lg-6 -->
             <div class="col-sm-12 col-md-12 col-lg-6">
               <div class="about__img">
-                <img src="assets/images/about/1.jpg" alt="about">
+                <img src="{!! asset('theme/images/about/1.jpg') !!}" alt="about">
                 <div class="cta-banner">
                   <div class="slick-carousel" data-slick='{"slidesToShow": 1, "arrows": false, "dots": true}'>
                     <div class="cta-banner__item">
@@ -55,20 +56,20 @@
           Services Layout 2
       =========================== -->
       <section class="services-layout2 services-carousel bg-gray pt-130 pb-90">
-        <div class="bg-img"><img src="assets/images/banners/7.png" alt="background"></div>
+        <div class="bg-img"><img src="{!! asset('theme/images/banners/7.png') !!}" alt="background"></div>
         <div class="container">
           <div class="row services-wrapper">
             <div class="col-sm-12 col-md-12 col-lg-4">
               <div class="service-item service-item-custom bg-overlay bg-overlay-primary">
                 <div class="bg-img">
-                  <img src="assets/images/services/6.jpg" alt="background">
+                  <img src="{!! asset('theme/images/services/6.jpg') !!}" alt="background">
                 </div>
                 <div>
                   <h4 class="service-item__title">Help Your Business Win!</h4>
                   <p class="service-item__desc">Mintech is a trusted advisor and an objective resource for more than 17000
                     organizations in 90+ countries.</p>
                 </div>
-                <a href="services-it-solutions-single.html" class="btn btn__white btn__bordered btn__icon btn__xl">
+                <a href="" class="btn btn__white btn__bordered btn__icon btn__xl">
                   <span>Find Your Solution</span>
                   <i class="icon-arrow-right"></i>
                 </a>
@@ -86,13 +87,13 @@
                     <h4 class="service-item__title">IT Management <br> Services</h4>
                     <p class="service-item__desc">IT management service that manages and oversees the IT infrastructure of
                       organization responsible for network and operations which includes data communication.</p>
-                    <a href="it-solutions-single.html" class="btn btn__secondary btn__link">
+                    <a href="" class="btn btn__secondary btn__link">
                       <span>Read More</span>
                       <i class="icon-arrow-right"></i>
                     </a>
                   </div><!-- /.service-content -->
                   <div class="service-item__overlay bg-overlay bg-overlay-primary">
-                    <div class="bg-img"><img src="assets/images/services/1.jpg" alt="background"></div>
+                    <div class="bg-img"><img src="{!! asset('theme/images/services/1.jpg') !!}" alt="background"></div>
                   </div><!-- /.service-item__overlay -->
                 </div><!-- /.service-item -->
                 <!-- service item #2 -->
@@ -110,7 +111,7 @@
                     </a>
                   </div><!-- /.service-content -->
                   <div class="service-item__overlay bg-overlay bg-overlay-primary">
-                    <div class="bg-img"><img src="assets/images/services/2.jpg" alt="background"></div>
+                    <div class="bg-img"><img src="{!! asset('theme/images/services/2.jpg') !!}" alt="background"></div>
                   </div><!-- /.service-item__overlay -->
                 </div><!-- /.service-item -->
                 <!-- service item #3 -->
@@ -130,7 +131,7 @@
                     </a>
                   </div><!-- /.service-content -->
                   <div class="service-item__overlay bg-overlay bg-overlay-primary">
-                    <div class="bg-img"><img src="assets/images/services/3.jpg" alt="background"></div>
+                    <div class="bg-img"><img src="{!! asset('theme/images/services/3.jpg') !!}" alt="background"></div>
                   </div><!-- /.service-item__overlay -->
                 </div><!-- /.service-item -->
                 <!-- service item #4 -->
@@ -150,7 +151,7 @@
                     </a>
                   </div><!-- /.service-content -->
                   <div class="service-item__overlay bg-overlay bg-overlay-primary">
-                    <div class="bg-img"><img src="assets/images/services/4.jpg" alt="background"></div>
+                    <div class="bg-img"><img src="{!! asset('theme/images/services/4.jpg') !!}" alt="background"></div>
                   </div><!-- /.service-item__overlay -->
                 </div><!-- /.service-item -->
                 <!-- service item #5 -->
@@ -169,7 +170,7 @@
                     </a>
                   </div><!-- /.service-content -->
                   <div class="service-item__overlay bg-overlay bg-overlay-primary">
-                    <div class="bg-img"><img src="assets/images/services/5.jpg" alt="background"></div>
+                    <div class="bg-img"><img src="{!! asset('theme/images/services/5.jpg') !!}" alt="background"></div>
                   </div><!-- /.service-item__overlay -->
                 </div><!-- /.service-item -->
                 <!-- service item #6 -->
@@ -187,7 +188,7 @@
                     </a>
                   </div><!-- /.service-content -->
                   <div class="service-item__overlay bg-overlay bg-overlay-primary">
-                    <div class="bg-img"><img src="assets/images/services/6.jpg" alt="background"></div>
+                    <div class="bg-img"><img src="{!! asset('theme/images/services/6.jpg') !!}" alt="background"></div>
                   </div><!-- /.service-item__overlay -->
                 </div><!-- /.service-item -->
               </div><!-- /.carousel -->
@@ -221,7 +222,7 @@
             <div class="col-sm-6 col-md-6 col-lg-4">
               <div class="portfolio-item">
                 <div class="portfolio-item__img">
-                  <img src="assets/images/portfolio/grid/1.jpg" alt="portfolio img">
+                  <img src="{!! asset('theme/images/portfolio/grid/1.jpg') !!}" alt="portfolio img">
                 </div><!-- /.portfolio-img -->
                 <div class="portfolio-item__content">
                   <h4 class="portfolio-item__title"><a href="#">Financial’s Need For
@@ -236,7 +237,7 @@
             <div class="col-sm-6 col-md-6 col-lg-4">
               <div class="portfolio-item">
                 <div class="portfolio-item__img">
-                  <img src="assets/images/portfolio/grid/2.jpg" alt="portfolio img">
+                  <img src="{!! asset('theme/images/portfolio/grid/2.jpg') !!}" alt="portfolio img">
                 </div><!-- /.portfolio-img -->
                 <div class="portfolio-item__content">
                   <h4 class="portfolio-item__title"><a href="#">24x7 System Monitoring and
@@ -251,7 +252,7 @@
             <div class="col-sm-6 col-md-6 col-lg-4">
               <div class="portfolio-item">
                 <div class="portfolio-item__img">
-                  <img src="assets/images/portfolio/grid/3.jpg" alt="portfolio img">
+                  <img src="{!! asset('theme/images/portfolio/grid/3.jpg') !!}" alt="portfolio img">
                 </div><!-- /.portfolio-img -->
                 <div class="portfolio-item__content">
                   <h4 class="portfolio-item__title"><a href="#">Nonprofit Organization
@@ -266,7 +267,7 @@
             <div class="col-sm-6 col-md-6 col-lg-4">
               <div class="portfolio-item">
                 <div class="portfolio-item__img">
-                  <img src="assets/images/portfolio/grid/4.jpg" alt="portfolio img">
+                  <img src="{!! asset('theme/images/portfolio/grid/4.jpg') !!}" alt="portfolio img">
                 </div><!-- /.portfolio-img -->
                 <div class="portfolio-item__content">
                   <h4 class="portfolio-item__title"><a href="#">Powerful IT Upgrade Aligns
@@ -281,7 +282,7 @@
             <div class="col-sm-6 col-md-6 col-lg-4">
               <div class="portfolio-item">
                 <div class="portfolio-item__img">
-                  <img src="assets/images/portfolio/grid/5.jpg" alt="portfolio img">
+                  <img src="{!! asset('theme/images/portfolio/grid/5.jpg') !!}" alt="portfolio img">
                 </div><!-- /.portfolio-img -->
                 <div class="portfolio-item__content">
                   <h4 class="portfolio-item__title"><a href="#">The Best IT Practices in Cloud
@@ -296,7 +297,7 @@
             <div class="col-sm-6 col-md-6 col-lg-4">
               <div class="portfolio-item">
                 <div class="portfolio-item__img">
-                  <img src="assets/images/portfolio/grid/6.jpg" alt="portfolio img">
+                  <img src="{!! asset('theme/images/portfolio/grid/6.jpg') !!}" alt="portfolio img">
                 </div><!-- /.portfolio-img -->
                 <div class="portfolio-item__content">
                   <h4 class="portfolio-item__title"><a href="#">Helping Companies With
@@ -326,32 +327,32 @@
               <div class="slick-carousel"
                 data-slick='{"slidesToShow": 6, "arrows": false, "dots": false, "autoplay": true,"autoplaySpeed": 2000, "infinite": true, "responsive": [ {"breakpoint": 992, "settings": {"slidesToShow": 4}}, {"breakpoint": 767, "settings": {"slidesToShow": 3}}, {"breakpoint": 480, "settings": {"slidesToShow": 2}}]}'>
                 <div class="client">
-                  <img src="assets/images/clients/1.png" alt="client">
-                  <img src="assets/images/clients/1.png" alt="client">
+                  <img src="{!! asset('theme/images/clients/1.png') !!}" alt="client">
+                  <img src="{!! asset('theme/images/clients/1.png') !!}" alt="client">
                 </div><!-- /.client -->
                 <div class="client">
-                  <img src="assets/images/clients/2.png" alt="client">
-                  <img src="assets/images/clients/2.png" alt="client">
+                  <img src="{!! asset('theme/images/clients/2.png') !!}" alt="client">
+                  <img src="{!! asset('theme/images/clients/2.png') !!}" alt="client">
                 </div><!-- /.client -->
                 <div class="client">
-                  <img src="assets/images/clients/3.png" alt="client">
-                  <img src="assets/images/clients/3.png" alt="client">
+                  <img src="{!! asset('theme/images/clients/3.png') !!}" alt="client">
+                  <img src="{!! asset('theme/images/clients/3.png') !!}" alt="client">
                 </div><!-- /.client -->
                 <div class="client">
-                  <img src="assets/images/clients/4.png" alt="client">
-                  <img src="assets/images/clients/4.png" alt="client">
+                  <img src="{!! asset('theme/images/clients/4.png') !!}" alt="client">
+                  <img src="{!! asset('theme/images/clients/4.png') !!}" alt="client">
                 </div><!-- /.client -->
                 <div class="client">
-                  <img src="assets/images/clients/5.png" alt="client">
-                  <img src="assets/images/clients/5.png" alt="client">
+                  <img src="{!! asset('theme/images/clients/5.png') !!}" alt="client">
+                  <img src="{!! asset('theme/images/clients/5.png') !!}" alt="client">
                 </div><!-- /.client -->
                 <div class="client">
-                  <img src="assets/images/clients/6.png" alt="client">
-                  <img src="assets/images/clients/6.png" alt="client">
+                  <img src="{!! asset('theme/images/clients/6.png') !!}" alt="client">
+                  <img src="{!! asset('theme/images/clients/6.png') !!}" alt="client">
                 </div><!-- /.client -->
                 <div class="client">
-                  <img src="assets/images/clients/7.png" alt="client">
-                  <img src="assets/images/clients/7.png" alt="client">
+                  <img src="{!! asset('theme/images/clients/7.png') !!}" alt="client">
+                  <img src="{!! asset('theme/images/clients/7.png') !!}" alt="client">
                 </div><!-- /.client -->
               </div><!-- /.carousel -->
             </div><!-- /.col-lg-12 -->
@@ -363,7 +364,7 @@
              Banner layout 3
       =========================== -->
       <section class="banner-layout3 pt-100 pb-0">
-        <div class="bg-img"><img src="assets/images/backgrounds/8.jpg" alt="background"></div>
+        <div class="bg-img"><img src="{!! asset('theme/images/backgrounds/8.jpg') !!}" alt="background"></div>
         <div class="container">
           <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-12 col-xl-5">
@@ -393,98 +394,13 @@
         </div><!-- /.container -->
       </section><!-- /.Banner layout 3 -->
 
-      <!-- =========================
-        Awards
-        =========================== -->
-      <section class="awards pt-20">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-5">
-              <div class="heading-layout2">
-                <h3 class="heading__title mb-50">Our awards and recognitions</h3>
-              </div>
-            </div><!-- /.col-lg-6 -->
-          </div><!-- /.row -->
-          <div class="row awards-wrapper">
-            <div class="col-sm-6 col-md-6 col-lg-3">
-              <!-- fancybox item #1 -->
-              <div class="fancybox-item">
-                <div class="fancybox-item__icon__img">
-                  <img src="assets/images/awards/icons/1.png" alt="icon">
-                </div><!-- /.fancybox-item__icon__img -->
-                <div class="fancybox-item__content">
-                  <h4 class="fancybox-item__title">CSS Design Award</h4>
-                  <p class="fancybox-item__desc">A web design & development award platform for digital folk, UI/UX peeps
-                    and inspiring leaders of the web.
-                  </p>
-                </div><!-- /.fancybox-content -->
-              </div><!-- /.fancybox-item -->
-            </div><!-- /.col-lg-3 -->
-            <div class="col-sm-6 col-md-6 col-lg-3">
-              <!-- fancybox item #2 -->
-              <div class="fancybox-item">
-                <span class="pinned-ribbon"></span>
-                <div class="fancybox-item__icon__img">
-                  <img src="assets/images/awards/icons/2.png" alt="icon">
-                </div><!-- /.fancybox-item__icon__img -->
-                <div class="fancybox-item__content">
-                  <h4 class="fancybox-item__title">W3 Design Award</h4>
-                  <p class="fancybox-item__desc">Awards celebrates digital by honoring outstanding Websites, Web
-                    Marketing, Video, Sites, Apps & Social content.
-                  </p>
-                </div><!-- /.fancybox-content -->
-              </div><!-- /.fancybox-item -->
-            </div><!-- /.col-lg-3 -->
-            <div class="col-sm-6 col-md-6 col-lg-3">
-              <!-- fancybox item #3 -->
-              <div class="fancybox-item">
-                <div class="fancybox-item__icon__img">
-                  <img src="assets/images/awards/icons/3.png" alt="icon">
-                </div><!-- /.fancybox-item__icon__img -->
-                <div class="fancybox-item__content">
-                  <h4 class="fancybox-item__title">The FWA Award</h4>
-                  <p class="fancybox-item__desc">Showcasing innovation every day since 2000, our mission is to showcase
-                    cutting edge creativity, regardless
-                  </p>
-                </div><!-- /.fancybox-content -->
-              </div><!-- /.fancybox-item -->
-            </div><!-- /.col-lg-3 -->
-            <div class="col-sm-6 col-md-6 col-lg-3">
-              <!-- fancybox item #4 -->
-              <div class="fancybox-item">
-                <div class="fancybox-item__icon__img">
-                  <img src="assets/images/awards/icons/4.png" alt="icon">
-                </div><!-- /.fancybox-item__icon__img -->
-                <div class="fancybox-item__content">
-                  <h4 class="fancybox-item__title">WWW Awards</h4>
-                  <p class="fancybox-item__desc">The awards that recognize the talent and effort of the best web
-                    designers, developers and agencies in the world.
-                  </p>
-                </div><!-- /.fancybox-content -->
-              </div><!-- /.fancybox-item -->
-            </div><!-- /.col-lg-3 -->
-          </div><!-- /.row -->
-          <div class="row align-items-center">
-            <div class="col-sm-12 col-md-12 col-lg-5">
-              <p class="fz-16 my-4">Trusted by the world's best organizations, for 15 years and running, it has been
-                delivering
-                smiles to hundreds of IT advisors, developers, users, and business owners.
-              </p>
-            </div><!-- /.col-lg-5 -->
-            <div class="col-sm-12 col-md-12 col-lg-7 d-flex justify-content-end">
-              <a href="#" class="btn btn__primary btn__link">
-                <span>Explore All Awards</span><i class="icon-arrow-right icon-outlined"></i>
-              </a>
-            </div><!-- /.col-lg-7 -->
-          </div><!-- /.row -->
-        </div><!-- /.container -->
-      </section><!-- /.Awards -->
+
 
       <!-- =========================
         Testimonials layout 2
         =========================  -->
       <section class="testimonials testimonials-layout2 pt-130 pb-130">
-        <div class="bg-img"><img src="assets/images/backgrounds/13.jpg" alt="backgrounds"></div>
+        <div class="bg-img"><img src="{!! asset('theme/images/backgrounds/13.jpg') !!}" alt="backgrounds"></div>
         <div class="container">
           <div class="row">
             <div class="col-12">
@@ -494,7 +410,7 @@
               <h3 class="heading__title color-white mb-40">Easy solutions for all difficult IT problems, keep business
                 safe &
                 ensure high availability.</h3>
-              <a href="request-quote.html" class="btn btn__white btn__bordered btn__icon btn__xl minwidth-170 mb-40">
+              <a href="" class="btn btn__white btn__bordered btn__icon btn__xl minwidth-170 mb-40">
                 <span>Get Started</span>
                 <i class="icon-arrow-right"></i>
               </a>
@@ -618,62 +534,6 @@
               </div><!-- /.post-item -->
             </div><!-- /.col-lg-4 -->
             <!-- Blog Item #2 -->
-            <div class="col-sm-12 col-md-4 col-lg-4">
-              <div class="post-item">
-                <div class="post-item__img">
-                  <a href="blog-single-post.html">
-                    <img src="assets/images/blog/grid/2.jpg" alt="blog image">
-                  </a>
-                </div><!-- /.blog-img -->
-                <div class="post-item__content">
-                  <div class="post-item__meta d-flex flex-wrap">
-                    <div class="post-item__meta__cat">
-                      <a href="#">Tech</a><a href="#">Communications</a>
-                    </div><!-- /.blog-meta-cat -->
-                    <span class="post-item__meta__date">April 17, 2020</span>
-                  </div>
-                  <h4 class="post-item__title"><a href="#">Succession Risks That Threaten Your Leadership Strategy</a>
-                  </h4>
-                  <p class="post-item__desc">Today’s organizations need a quality bench of leaders to drive business
-                    outcomes and satisfy employees, customers and investors who now demand more transparency and
-                    accountability...
-                  </p>
-                  <a href="blog-single-post.html" class="btn btn__secondary btn__link">
-                    <span>Read More</span>
-                    <i class="icon-arrow-right"></i>
-                  </a>
-                </div><!-- /.blog-content -->
-              </div><!-- /.post-item -->
-            </div><!-- /.col-lg-4 -->
-            <!-- Blog Item #3 -->
-            <div class="col-sm-12 col-md-4 col-lg-4">
-              <div class="post-item">
-                <div class="post-item__img">
-                  <a href="blog-single-post.html">
-                    <img src="assets/images/blog/grid/3.jpg" alt="blog image">
-                  </a>
-                </div><!-- /.blog-img -->
-                <div class="post-item__content">
-                  <div class="post-item__meta d-flex flex-wrap">
-                    <div class="post-item__meta__cat">
-                      <a href="#">Digital Business</a><a href="#">Cloud</a>
-                    </div><!-- /.blog-meta-cat -->
-                    <span class="post-item__meta__date">March 20, 2020</span>
-                  </div>
-                  <h4 class="post-item__title"><a href="#">What Do Employee Engagement Surveys Tell You About
-                      Employee?</a>
-                  </h4>
-                  <p class="post-item__desc">Outsourcing IT infrastructure is a concept that has been around for a while.
-                    Characterized in terms of technicians and engineers, workstations and servers, the idea of outsourcing
-                    your basic IT needs...
-                  </p>
-                  <a href="blog-single-post.html" class="btn btn__secondary btn__link">
-                    <span>Read More</span>
-                    <i class="icon-arrow-right"></i>
-                  </a>
-                </div><!-- /.blog-content -->
-              </div><!-- /.post-item -->
-            </div><!-- /.col-lg-4 -->
           </div><!-- /.row -->
         </div><!-- /.container -->
       </section><!-- /.blog Grid -->
