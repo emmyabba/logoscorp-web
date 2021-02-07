@@ -1,29 +1,30 @@
-@extends('layouts.welcome')
+@extends('layouts.app')
 
 @section('content')
-<span class="mt-100"></span>
-<div class="back-to-home rounded d-none d-sm-block">
-    <a href="{{route('welcome')}}" class="btn btn-icon btn-soft-primary"><i data-feather="home" class="icons"></i></a>
-</div>
-
-<!-- ERROR PAGE -->
-<section class="bg-home d-flex align-items-center">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-8 col-md-12 text-center">
-                <img src="{!! ('theme/images/404.svg')!!}" class="img-fluid" alt="">
-                <div class="text-uppercase mt-4 display-3">Oh ! no</div>
-                <div class="text-capitalize text-dark mb-4 error-page">Page Not Found</div>
-
-            </div><!--end col-->
-        </div><!--end row-->
-
-        <div class="row">
-            <div class="col-md-12 text-center">
-                <a href="{{route('welcome')}}" class="btn btn-outline-primary mt-4">Go home</a>
-            </div><!--end col-->
-        </div><!--end row-->
-    </div><!--end container-->
-</section><!--end section-->
-<!-- ERROR PAGE -->
+  <!-- ==========================
+        404
+    =========================== -->
+    <section class="page-404 mt--100 py-0">
+        <div class="bg-img"><img src="{!! asset('theme/images/banners/1.jpg') !!}" alt="background"></div>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12 d-flex align-items-center vh-100 error-wrapper">
+              <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-6">
+                  <h1 class="error-code">404</h1>
+                </div><!-- /.col-lg-6 -->
+                <div class="col-sm-12 col-md-12 col-lg-6">
+                  <h2 class="error-title">Oops! That page can’t be found.</h2>
+                  <p class="error-desc">The page requested couldn't be found. This could be a spelling error in the
+                    URL or a removed page.
+                  </p>
+                  <a href="/" class="btn btn__primary btn__icon btn__xl">
+                    <span>Back To Home</span> <i class="icon-arrow-right"></i>
+                  </a>
+                </div><!-- /.col-lg-6 -->
+              </div><!-- /.row -->
+            </div><!-- /.col-lg-12 -->
+          </div><!-- /.row -->
+        </div><!-- /.container -->
+      </section><!-- /.page-404 -->
 @endsection

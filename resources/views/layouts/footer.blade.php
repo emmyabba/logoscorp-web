@@ -2,52 +2,13 @@
       Footer
     ========================== -->
     <footer class="footer bg-heading">
-        <div class="bg-img"><img src="assets/images/backgrounds/2.png" alt="backgrounds"></div>
-        <div class="footer-contact pt-50 pb-50">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-4 col-md-4 col-lg-2">
-                <div class="contact-info">
-                  <h6 class="footer-widget__title">Quick Contact</h6>
-                  <ul class="contact-list list-unstyled mb-0">
-                    <li><a href="tel:00123968574">+ (002) 0106-1245-741</a></li>
-                    <li><a href="mailto:Mintech@7oroof.com">Mintech@7oroof.com</a></li>
-                  </ul>
-                </div><!-- /.contact-info -->
-              </div><!-- /.col-lg-2 -->
-              <div class="col-sm-4 col-md-4 col-lg-2">
-                <div class="contact-info">
-                  <h6 class="footer-widget__title">Our Address</h6>
-                  <ul class="contact-list list-unstyled mb-0">
-                    <li>2307 Beverley Rd , New York 11226 U.S.</li>
-                  </ul>
-                </div><!-- /.contact-info -->
-              </div><!-- /.col-lg-2 -->
-              <div class="col-sm-4 col-md-4 col-lg-2">
-                <div class="contact-info">
-                  <h6 class="footer-widget__title">Opening Hours</h6>
-                  <ul class="contact-list list-unstyled mb-0">
-                    <li>Mon - Fri: 8am - 7pm</li>
-                    <li>Sat - Sun: 9 am - 8pm</li>
-                  </ul>
-                </div><!-- /.contact-info -->
-              </div><!-- /.col-lg-2 -->
-              <div class="col-sm-12 col-md-8 col-lg-6">
-                <h6 class="footer-widget__title">Newsletter</h6>
-                <form class="footer-form d-flex mb-0">
-                  <input type="text" class="form-control mr-20" placeholder="Your Email Address">
-                  <button type="submit" class="btn btn__primary btn__primary-style2">Subscribe</button>
-                </form>
-              </div><!-- /.col-lg-6 -->
-            </div><!-- /.row -->
-          </div><!-- /.container -->
-        </div><!-- /.footer-contact -->
+        <div class="bg-img"><img src="{!! asset('theme/images/backgrounds/2.png') !!}" alt="backgrounds"></div>
         <div class="footer-primary">
           <div class="container">
             <div class="row">
               <div class="col-sm-12 col-md-12 col-lg-4 footer-widget footer-widget-about">
                 <div class="footer-widget__content">
-                  <img src="assets/images/logo/logo-light.png" alt="logo" class="mb-30">
+                  <img src="{!! asset('theme/images/logo/logo-light.png') !!}" alt="logo" class="mb-30">
                   <p class="color-gray mb-40">We are experienced professionals who understand that It services is
                     changing, and are
                     true partners who care about your future business success.</p>
@@ -118,8 +79,8 @@
           <div class="container">
             <div class="row">
               <div class="col-sm-12 col-md-12 col-lg-12 text-center">
-                <span class="fz-14">&copy; 2020 Mintech, All Rights Reserved. With Love by</span>
-                <a class="fz-14 color-primary" href="http://themeforest.net/user/7oroof">7oroof.com</a>
+                <span class="fz-14">&copy; {{date('Y')}} LOGEAK SOLUTIONS LTD, All Rights Reserved. With Love by</span>
+                <a class="fz-14 color-primary" href="http://logeaksolutions.com">LOGEAK</a>
               </div><!-- /.col-lg-12 -->
             </div><!-- /.row -->
           </div><!-- /.container -->
@@ -131,7 +92,7 @@
         <div class="burger-menu__content">
           <button type="button" class="burger-menu__close"><i class="fas fa-times"></i></button>
           <div class="burger-menu__header">
-            <img src="assets/images/logo/logo-light.png" alt="logo" class="mb-30">
+            <img src="{!! asset('theme/images/logo/logo-light.png') !!}" alt="logo" class="mb-30">
             <p class="color-white">We are experienced professionals who understand that It services is changing, and are
               true partners who care about your future business success.</p>
           </div><!-- /.burger-menu__header -->
@@ -145,15 +106,14 @@
             <div class="contact-block contact-block-light">
               <h5 class="contact-block__title">Quick Contact</h5>
               <ul class="contact-block__list list-unstyled">
-                <li><a href="mailto:Mintech@7oroof.com"></a>Email: Mintech@7oroof.com</li>
-                <li><a href="mailto:Mintech@7oroof.com"></a>Support: Mintech@7oroof.com</li>
+                <li><a href="mailto:hello@logeaksolutions.com"></a>Email: hello@logeaksolutions.com</li>
               </ul>
             </div><!-- /.contact-panel__info__block -->
             <div class="contact-block contact-block-light">
               <h5 class="contact-block__title">Opening Hours</h5>
               <ul class="contact-block__list list-unstyled">
                 <li>Monday - Friday</li>
-                <li>8 am to 7 pm</li>
+                <li>8 am to 5 pm GMT +1</li>
               </ul>
             </div><!-- /.contact-panel__info__block -->
             <ul class="social-icons list-unstyled mb-0 mt-20">
