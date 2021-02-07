@@ -1,49 +1,47 @@
-/* Template Name: Landrick - Saas & Software Landing Page Template
-   Author: Shreethemes
-   E-mail: shreethemes@gmail.com
-   Created: August 2019
-   Version: 2.5.1
-   Updated: August 2020
-   File Description: Main Css file of the template
-*/
-/*********************************/
-/*         INDEX                 */
-/*================================
- *     01.  Variables            *
- *     02.  Bootstrap Custom     *
- *     03.  Components           *
- *     04.  General              *
- *     05.  Helper               *
- *     06.  Menu                 *
- *     07.  Home / Landing       *
- *     08.  Features / Services  *
- *     09.  Testimonial          *
- *     10.  Price                *
- *     11.  C.T.A                *
- *     12.  Blog / Careers / Job *
- *     13.  Work / Projects      *
- *     14.  Team                 *
- *     15.  User Pages           *
- *     16.  Countdown            *
- *     17.  Contact              *
- *     18.  Footer               *
- ================================*/
+// Global
+@import "global/vars";
+@import "global/mixins";
+@import "global/global";
 
-@import "variables";
-@import "bootstrap-custom";
-@import "components";
-@import "general";
-@import "helper";
-@import "menu";
-@import "home";
-@import "features";
-@import "testi";
-@import "price";
-@import "cta";
-@import "blog";
-@import "work";
-@import "team";
-@import "user";
-@import "countdown";
-@import "contact";
-@import "footer";
+// Layout
+@import "layout/helpers";
+@import "layout/bg-colors";
+@import "layout/typography";
+@import "layout/pagetitle";
+@import "layout/buttons";
+@import "layout/forms";
+@import "layout/tabs";
+@import "layout/icons";
+@import "layout/breadcrumb";
+@import "layout/pagination";
+@import "layout/lists";
+@import "layout/animation";
+@import "layout/preloader";
+
+// Modules
+@import "module/header";
+@import "module/accordion";
+@import "module/footer";
+@import "module/cta";
+@import "module/carousel";
+@import "module/slider";
+@import "module/video";
+@import "module/features";
+@import "module/fancybox";
+@import "module/portfolio";
+@import "module/team";
+@import "module/testimonial";
+@import "module/clients";
+@import "module/blog";
+@import "module/contact";
+@import "module/pricing";
+@import "module/counters";
+@import "module/sidebar";
+@import "module/about";
+@import "module/banners";
+@import "module/careeres";
+@import "module/services";
+@import "module/awards";
+@import "module/timeline";
+@import "module/work-process";
+@import "module/utilities-pages";
