@@ -12,7 +12,7 @@ class WelcomeController extends Controller
         $keywords        = 'Offficial, logeak, elearning, web design, no 1 web developer, no 1 elearning consultant';
         $title          = 'Home';
 
-        return view('welcome', compact('title', 'keywords', 'description'));
+        return view('home', compact('title', 'keywords', 'description'));
     }
     public function contactus()
     {
