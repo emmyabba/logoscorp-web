@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg sticky-navbar">
     <div class="container-fluid">
-      <a class="navbar-brand" href="index.html">
+      <a class="navbar-brand" href="/">
         <img src="{!! asset('theme/images/logo/logo-light.png') !!}" class="logo-light" alt="logo">
         <img src="{!! asset('theme/images/logo/logo-dark.png') !!}" class="logo-dark" alt="logo">
       </a>
@@ -103,11 +103,7 @@
         <li class="d-none d-xl-block">
           <a href="" class="btn btn__secondary action__btn-contact">Request A Quote</a>
         </li>
-        <li>
-          <button class="action__btn action__btn-search">
-            <i class="icon-search"></i>
-          </button>
-        </li>
+
       </ul><!-- /.navbar-actions -->
     </div><!-- /.container -->
   </nav><!-- /.navabr -->
