@@ -2,540 +2,472 @@
 
 @section('content')
 
-@include('layouts.slider')
+        <!-- Start Startup Home Area -->
+        <div class="startup-home-area">
+			<div class="d-table">
+				<div class="d-table-cell">
+					<div class="container">
+						<div class="row align-items-center">
+							<div class="col-lg-6 col-md-12">
+								<div class="hero-content">
+                                    <span>We are a startup Agency</span>
+									<h1>Business Makes Success <b>Strategy</b></h1>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolet suspendisse ultrices gravida. </p>
+                                    <div class="startup-btn">
+                                        <a href="#" class="startup-btn-one">
+                                            Get A Quote <i class="fa fa-arrow-right"></i>
+                                        </a>
+                                        <a href="https://www.youtube.com/watch?v=_ysd-zHamjk" class="startup-btn-two popup-youtube">
+                                            Watch The Demo
+                                            <i class="fa fa-arrow-right"></i>
+                                        </a>
+                                    </div>
+								</div>
+                            </div>
 
-    <!-- ========================
-      About Layout 1
-    =========================== -->
-    <section class="about-layout1">
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-sm-12 col-md-12 col-lg-6">
-              <div class="heading-layout2 mb-30">
-                <h2 class="heading__subtitle">Trusted By The World's Best Organizations</h2>
-                <h3 class="heading__title mb-30">Our technology allows you to offer latest software to your possible
-                  customers!
-                </h3>
-                <p class="heading__desc mb-25">Mintech has been helping organizations throughout the World to manage their
-                  IT with our unique approach to technology management and consultancy solutions. As one of the world's
-                  largest ITService Providers, our deep pool of over 130 certified engineers and IT support staff are
-                  ready to help.</p>
-              </div><!-- /heading -->
-              <a href="about-us.html" class="btn btn__primary btn__xl btn__icon mb-30">
-                <span>More About Us</span>
-                <i class="icon-arrow-right"></i>
-              </a>
-              <img src="{!! asset('theme/images/about/singnture.png') !!}" alt="singnture" class="d-block">
-            </div><!-- /.col-lg-6 -->
-            <div class="col-sm-12 col-md-12 col-lg-6">
-              <div class="about__img">
-                <img src="{!! asset('theme/images/about/1.jpg') !!}" alt="about">
-                <div class="cta-banner">
-                  <div class="slick-carousel" data-slick='{"slidesToShow": 1, "arrows": false, "dots": true}'>
-                    <div class="cta-banner__item">
-                      <div class="cta-banner__icon"><i class="icon-technician"></i></div>
-                      <h4 class="cta-banner__title mb-0">Utilising latest timelineing solutions, and decades of work
-                        experience.
-                      </h4>
-                    </div><!-- /.cta-banner__item -->
-                    <div class="cta-banner__item">
-                      <div class="cta-banner__icon"><i class="icon-funnel"></i></div>
-                      <h4 class="cta-banner__title mb-0">Thinking insights, verified driven research, metrics make right
-                        decisions!
-                      </h4>
-                    </div><!-- /.cta-banner__item -->
-                  </div><!-- /.slick-carousel -->
-                </div><!-- /.cta-banner -->
-              </div><!-- /.about-img -->
-            </div><!-- /.col-lg-6 -->
-          </div><!-- /.row -->
-        </div><!-- /.container -->
-      </section><!-- /.About Layout 1 -->
-
-      <!-- ========================
-          Services Layout 2
-      =========================== -->
-      <section class="services-layout2 services-carousel bg-gray pt-130 pb-90">
-        <div class="bg-img"><img src="{!! asset('theme/images/banners/7.png') !!}" alt="background"></div>
-        <div class="container">
-          <div class="row services-wrapper">
-            <div class="col-sm-12 col-md-12 col-lg-4">
-              <div class="service-item service-item-custom bg-overlay bg-overlay-primary">
-                <div class="bg-img">
-                  <img src="{!! asset('theme/images/services/6.jpg') !!}" alt="background">
-                </div>
-                <div>
-                  <h4 class="service-item__title">Help Your Business Win!</h4>
-                  <p class="service-item__desc">Mintech is a trusted advisor and an objective resource for more than 17000
-                    organizations in 90+ countries.</p>
-                </div>
-                <a href="" class="btn btn__white btn__bordered btn__icon btn__xl">
-                  <span>Find Your Solution</span>
-                  <i class="icon-arrow-right"></i>
-                </a>
-              </div><!-- /.service-item -->
-            </div><!-- /.col-lg-4 -->
-            <div class="col-sm-12 col-md-12 col-lg-8">
-              <div class="slick-carousel"
-                data-slick='{"slidesToShow": 3, "slidesToScroll": 3, "arrows": false, "dots": true, "responsive": [ {"breakpoint": 1200, "settings": {"slidesToShow": 2}}, {"breakpoint": 992, "settings": {"slidesToShow": 2}}, {"breakpoint": 767, "settings": {"slidesToShow": 1}}]}'>
-                <!-- service item #1 -->
-                <div class="service-item">
-                  <div class="service-item__content">
-                    <div class="service-item__icon">
-                      <i class="icon-server"></i>
-                    </div><!-- /.service-item__icon -->
-                    <h4 class="service-item__title">IT Management <br> Services</h4>
-                    <p class="service-item__desc">IT management service that manages and oversees the IT infrastructure of
-                      organization responsible for network and operations which includes data communication.</p>
-                    <a href="" class="btn btn__secondary btn__link">
-                      <span>Read More</span>
-                      <i class="icon-arrow-right"></i>
-                    </a>
-                  </div><!-- /.service-content -->
-                  <div class="service-item__overlay bg-overlay bg-overlay-primary">
-                    <div class="bg-img"><img src="{!! asset('theme/images/services/1.jpg') !!}" alt="background"></div>
-                  </div><!-- /.service-item__overlay -->
-                </div><!-- /.service-item -->
-                <!-- service item #2 -->
-                <div class="service-item">
-                  <div class="service-item__content">
-                    <div class="service-item__icon">
-                      <i class="icon-cloud"></i>
-                    </div><!-- /.service-item__icon -->
-                    <h4 class="service-item__title">Cyber Security<br> Services</h4>
-                    <p class="service-item__desc">Drive your business and manage risk with a global industry leader in
-                      cybersecurity, cloud, and managed security services and extend your team with leading experts.</p>
-                    <a href="it-solutions-single.html" class="btn btn__secondary btn__link">
-                      <span>Read More</span>
-                      <i class="icon-arrow-right"></i>
-                    </a>
-                  </div><!-- /.service-content -->
-                  <div class="service-item__overlay bg-overlay bg-overlay-primary">
-                    <div class="bg-img"><img src="{!! asset('theme/images/services/2.jpg') !!}" alt="background"></div>
-                  </div><!-- /.service-item__overlay -->
-                </div><!-- /.service-item -->
-                <!-- service item #3 -->
-                <div class="service-item">
-                  <div class="service-item__content">
-                    <div class="service-item__icon">
-                      <i class="icon-hosting"></i>
-                    </div><!-- /.service-item__icon -->
-                    <h4 class="service-item__title">Cloud Computing<br> Services</h4>
-                    <p class="service-item__desc">Cloud computing is the on-demand availability of computer system
-                      resources, especially data storage and computing power, without direct active management by the
-                      user.
-                    </p>
-                    <a href="it-solutions-single.html" class="btn btn__secondary btn__link">
-                      <span>Read More</span>
-                      <i class="icon-arrow-right"></i>
-                    </a>
-                  </div><!-- /.service-content -->
-                  <div class="service-item__overlay bg-overlay bg-overlay-primary">
-                    <div class="bg-img"><img src="{!! asset('theme/images/services/3.jpg') !!}" alt="background"></div>
-                  </div><!-- /.service-item__overlay -->
-                </div><!-- /.service-item -->
-                <!-- service item #4 -->
-                <div class="service-item">
-                  <div class="service-item__content">
-                    <div class="service-item__icon">
-                      <i class="icon-technician"></i>
-                    </div><!-- /.service-item__icon -->
-                    <h4 class="service-item__title">IT Consulting <br> Services</h4>
-                    <p class="service-item__desc">Trying to solve all your IT challenges internally can become costly and
-                      a
-                      major distraction, Leveraging knowledgeable IT consulting firms like ushelps your business remain
-                      secure.</p>
-                    <a href="it-solutions-single.html" class="btn btn__secondary btn__link">
-                      <span>Read More</span>
-                      <i class="icon-arrow-right"></i>
-                    </a>
-                  </div><!-- /.service-content -->
-                  <div class="service-item__overlay bg-overlay bg-overlay-primary">
-                    <div class="bg-img"><img src="{!! asset('theme/images/services/4.jpg') !!}" alt="background"></div>
-                  </div><!-- /.service-item__overlay -->
-                </div><!-- /.service-item -->
-                <!-- service item #5 -->
-                <div class="service-item">
-                  <div class="service-item__content">
-                    <div class="service-item__icon">
-                      <i class="icon-programming"></i>
-                    </div><!-- /.service-item__icon -->
-                    <h4 class="service-item__title">Software Dev<br> Services</h4>
-                    <p class="service-item__desc">With shorter product cycles, rapid innovation, and mergers contributing
-                      to
-                      constant change, you are faced with making business decisions every day to advance your mission.</p>
-                    <a href="it-solutions-single.html" class="btn btn__secondary btn__link">
-                      <span>Read More</span>
-                      <i class="icon-arrow-right"></i>
-                    </a>
-                  </div><!-- /.service-content -->
-                  <div class="service-item__overlay bg-overlay bg-overlay-primary">
-                    <div class="bg-img"><img src="{!! asset('theme/images/services/5.jpg') !!}" alt="background"></div>
-                  </div><!-- /.service-item__overlay -->
-                </div><!-- /.service-item -->
-                <!-- service item #6 -->
-                <div class="service-item">
-                  <div class="service-item__content">
-                    <div class="service-item__icon">
-                      <i class="icon-file"></i>
-                    </div><!-- /.service-item__icon -->
-                    <h4 class="service-item__title">Backup & Recovery<br> Services</h4>
-                    <p class="service-item__desc">While you can’t predict unexpected events, we’ll ensure the right
-                      precautions are in place to minimize downtime and keep you moving in the right direction.</p>
-                    <a href="it-solutions-single.html" class="btn btn__secondary btn__link">
-                      <span>Read More</span>
-                      <i class="icon-arrow-right"></i>
-                    </a>
-                  </div><!-- /.service-content -->
-                  <div class="service-item__overlay bg-overlay bg-overlay-primary">
-                    <div class="bg-img"><img src="{!! asset('theme/images/services/6.jpg') !!}" alt="background"></div>
-                  </div><!-- /.service-item__overlay -->
-                </div><!-- /.service-item -->
-              </div><!-- /.carousel -->
-            </div><!-- /.col-lg-12 -->
-          </div><!-- /.row -->
-          <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-12 d-flex justify-content-end align-items-center btn-wrapper">
-              <a href="it-solutions.html" class="btn btn__primary btn__link">
-                <span>Explore All Services</span><i class="icon-arrow-right icon-outlined"></i>
-              </a>
-            </div><!-- /.col-lg-7 -->
-          </div><!-- /.row -->
-        </div><!-- /.container -->
-      </section><!-- /.Services Layout 2 -->
-
-      <!-- ===========================
-        portfolio layout 3
-      ============================= -->
-      <section class="portfolio-layout3 pt-130">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
-              <div class="heading text-center mb-40">
-                <h2 class="heading__subtitle color-body">Latest Case Studies</h2>
-                <h3 class="heading__title">Succetss Stories</h3>
-              </div><!-- /.heading -->
-            </div><!-- /.col-lg-6 -->
-          </div><!-- /.row -->
-          <div class="row">
-            <!-- portfolio item #1 -->
-            <div class="col-sm-6 col-md-6 col-lg-4">
-              <div class="portfolio-item">
-                <div class="portfolio-item__img">
-                  <img src="{!! asset('theme/images/portfolio/grid/1.jpg') !!}" alt="portfolio img">
-                </div><!-- /.portfolio-img -->
-                <div class="portfolio-item__content">
-                  <h4 class="portfolio-item__title"><a href="#">Financial’s Need For
-                      Strategic Advisor</a></h4>
-                  <div class="portfolio-item__cat">
-                    <a href="#">Building</a><a href="#">Interior</a>
-                  </div><!-- /.portfolio-cat -->
-                </div><!-- /.portfolio-content -->
-              </div><!-- /.portfolio-item -->
-            </div><!-- /.col-lg-4 -->
-            <!-- portfolio item #2 -->
-            <div class="col-sm-6 col-md-6 col-lg-4">
-              <div class="portfolio-item">
-                <div class="portfolio-item__img">
-                  <img src="{!! asset('theme/images/portfolio/grid/2.jpg') !!}" alt="portfolio img">
-                </div><!-- /.portfolio-img -->
-                <div class="portfolio-item__content">
-                  <h4 class="portfolio-item__title"><a href="#">24x7 System Monitoring and
-                      Alert Response</a></h4>
-                  <div class="portfolio-item__cat">
-                    <a href="#">Software</a><a href="#">Support</a>
-                  </div><!-- /.portfolio-cat -->
-                </div><!-- /.portfolio-content -->
-              </div><!-- /.portfolio-item -->
-            </div><!-- /.col-lg-4 -->
-            <!-- portfolio item #3 -->
-            <div class="col-sm-6 col-md-6 col-lg-4">
-              <div class="portfolio-item">
-                <div class="portfolio-item__img">
-                  <img src="{!! asset('theme/images/portfolio/grid/3.jpg') !!}" alt="portfolio img">
-                </div><!-- /.portfolio-img -->
-                <div class="portfolio-item__content">
-                  <h4 class="portfolio-item__title"><a href="#">Nonprofit Organization
-                      Utilized Security</a></h4>
-                  <div class="portfolio-item__cat">
-                    <a href="#">Management</a><a href="#">Cloud</a>
-                  </div><!-- /.portfolio-cat -->
-                </div><!-- /.portfolio-content -->
-              </div><!-- /.portfolio-item -->
-            </div><!-- /.col-lg-4 -->
-            <!-- portfolio item #4 -->
-            <div class="col-sm-6 col-md-6 col-lg-4">
-              <div class="portfolio-item">
-                <div class="portfolio-item__img">
-                  <img src="{!! asset('theme/images/portfolio/grid/4.jpg') !!}" alt="portfolio img">
-                </div><!-- /.portfolio-img -->
-                <div class="portfolio-item__content">
-                  <h4 class="portfolio-item__title"><a href="#">Powerful IT Upgrade Aligns
-                      With Your Objectives</a></h4>
-                  <div class="portfolio-item__cat">
-                    <a href="#">Digital</a><a href="#">HR</a>
-                  </div><!-- /.portfolio-cat -->
-                </div><!-- /.portfolio-content -->
-              </div><!-- /.portfolio-item -->
-            </div><!-- /.col-lg-4 -->
-            <!-- portfolio item #5 -->
-            <div class="col-sm-6 col-md-6 col-lg-4">
-              <div class="portfolio-item">
-                <div class="portfolio-item__img">
-                  <img src="{!! asset('theme/images/portfolio/grid/5.jpg') !!}" alt="portfolio img">
-                </div><!-- /.portfolio-img -->
-                <div class="portfolio-item__content">
-                  <h4 class="portfolio-item__title"><a href="#">The Best IT Practices in Cloud
-                      and Security</a></h4>
-                  <div class="portfolio-item__cat">
-                    <a href="#">Consulting</a><a href="#">Management</a>
-                  </div><!-- /.portfolio-cat -->
-                </div><!-- /.portfolio-content -->
-              </div><!-- /.portfolio-item -->
-            </div><!-- /.col-lg-4 -->
-            <!-- portfolio item #6 -->
-            <div class="col-sm-6 col-md-6 col-lg-4">
-              <div class="portfolio-item">
-                <div class="portfolio-item__img">
-                  <img src="{!! asset('theme/images/portfolio/grid/6.jpg') !!}" alt="portfolio img">
-                </div><!-- /.portfolio-img -->
-                <div class="portfolio-item__content">
-                  <h4 class="portfolio-item__title"><a href="#">Helping Companies With
-                      Healthcare Inustry</a></h4>
-                  <div class="portfolio-item__cat">
-                    <a href="#">Software</a><a href="#">Security</a>
-                  </div><!-- /.portfolio-cat -->
-                </div><!-- /.portfolio-content -->
-              </div><!-- /.portfolio-item -->
-            </div><!-- /.col-lg-4 -->
-          </div><!-- /.row -->
-          <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-12 text-center">
-              <a href="case-studies-grid.html" class="btn btn__primary btn__hi">Explore All Cases</a>
-            </div><!-- /.col-lg-12 -->
-          </div><!-- /.row -->
-        </div><!-- /.container -->
-      </section><!-- /.portfolio layout 3  -->
-
-      <!-- =====================
-             Clients
-          ======================== -->
-      <section class="clients border-top pt-50 pb-50">
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-sm-12 col-md-12 col-lg-12">
-              <div class="slick-carousel"
-                data-slick='{"slidesToShow": 6, "arrows": false, "dots": false, "autoplay": true,"autoplaySpeed": 2000, "infinite": true, "responsive": [ {"breakpoint": 992, "settings": {"slidesToShow": 4}}, {"breakpoint": 767, "settings": {"slidesToShow": 3}}, {"breakpoint": 480, "settings": {"slidesToShow": 2}}]}'>
-                <div class="client">
-                  <img src="{!! asset('theme/images/clients/1.png') !!}" alt="client">
-                  <img src="{!! asset('theme/images/clients/1.png') !!}" alt="client">
-                </div><!-- /.client -->
-                <div class="client">
-                  <img src="{!! asset('theme/images/clients/2.png') !!}" alt="client">
-                  <img src="{!! asset('theme/images/clients/2.png') !!}" alt="client">
-                </div><!-- /.client -->
-                <div class="client">
-                  <img src="{!! asset('theme/images/clients/3.png') !!}" alt="client">
-                  <img src="{!! asset('theme/images/clients/3.png') !!}" alt="client">
-                </div><!-- /.client -->
-                <div class="client">
-                  <img src="{!! asset('theme/images/clients/4.png') !!}" alt="client">
-                  <img src="{!! asset('theme/images/clients/4.png') !!}" alt="client">
-                </div><!-- /.client -->
-                <div class="client">
-                  <img src="{!! asset('theme/images/clients/5.png') !!}" alt="client">
-                  <img src="{!! asset('theme/images/clients/5.png') !!}" alt="client">
-                </div><!-- /.client -->
-                <div class="client">
-                  <img src="{!! asset('theme/images/clients/6.png') !!}" alt="client">
-                  <img src="{!! asset('theme/images/clients/6.png') !!}" alt="client">
-                </div><!-- /.client -->
-                <div class="client">
-                  <img src="{!! asset('theme/images/clients/7.png') !!}" alt="client">
-                  <img src="{!! asset('theme/images/clients/7.png') !!}" alt="client">
-                </div><!-- /.client -->
-              </div><!-- /.carousel -->
-            </div><!-- /.col-lg-12 -->
-          </div><!-- /.row -->
-        </div><!-- /.container -->
-      </section><!-- /.clients -->
-
-      <!-- =========================
-             Banner layout 3
-      =========================== -->
-      <section class="banner-layout3 pt-100 pb-0">
-        <div class="bg-img"><img src="{!! asset('theme/images/backgrounds/8.jpg') !!}" alt="background"></div>
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-5">
-              <div class="banner-text">
-                <div class="heading-layout2 heading-light mb-40">
-                  <h3 class="heading__title mb-30">Timely service delivery & incident resolutions!!</h3>
-                  <p class="heading__desc">Provide users with appropriate view and access permissions to requests,
-                    problems, changes, contracts, assets, solutions, and reports with our experienced professionals.
-                  </p>
-                </div><!-- /.heading -->
-                <a href="pricing.html" class="btn btn__white btn__bordered btn__hi mb-30">Pricing & Plans</a>
-              </div>
-            </div><!-- /.col-xl-6 -->
-            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-7">
-              <div class="banner-img">
-                <img src="assets/images/banners/5.jpg" alt="banner">
-                <a class="video__btn video__btn-white popup-video" href="https://www.youtube.com/watch?v=nrJtHemSPW4">
-                  <div class="video__player">
-                    <span class="video__player-animation"></span>
-                    <span class="video__player-animation video__player-animation-2"></span>
-                    <i class="fa fa-play"></i>
-                  </div>
-                </a>
-              </div>
-            </div><!-- /.col-xl-6 -->
-          </div><!-- /.row -->
-        </div><!-- /.container -->
-      </section><!-- /.Banner layout 3 -->
-
-
-
-      <!-- =========================
-        Testimonials layout 2
-        =========================  -->
-      <section class="testimonials testimonials-layout2 pt-130 pb-130">
-        <div class="bg-img"><img src="{!! asset('theme/images/backgrounds/13.jpg') !!}" alt="backgrounds"></div>
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <h2 class="heading__subtitle color-body">Ensure High Availability of Your Services</h2>
+                            <div class="col-lg-6 col-md-12">
+								<div class="startup-image">
+                                    <img src="{!! asset('theme/img/startup-home/startup.png') !!}" class="wow fadeInUp" data-wow-delay="0.6s" alt="image">
+                                </div>
+                            </div>
+                            <div class="startup-shape">
+                                <img src="{!! asset('theme/img/startup-home/startup-shape.png') !!}" alt="image">
+                            </div>
+						</div>
+					</div>
+				</div>
             </div>
-            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-5">
-              <h3 class="heading__title color-white mb-40">Easy solutions for all difficult IT problems, keep business
-                safe &
-                ensure high availability.</h3>
-              <a href="" class="btn btn__white btn__bordered btn__icon btn__xl minwidth-170 mb-40">
-                <span>Get Started</span>
-                <i class="icon-arrow-right"></i>
-              </a>
-            </div><!-- /.col-xl-5 -->
-            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-7">
-              <div class="slick-carousel"
-                data-slick='{"slidesToShow": 2, "slidesToScroll": 1, "arrows": false, "dots": true, "responsive": [ {"breakpoint": 1200, "settings": {"slidesToShow": 2}}, {"breakpoint": 992, "settings": {"slidesToShow": 1}}]}'>
-                <!-- Testimonial #1 -->
-                <div class="testimonial-item d-flex">
-                  <div class="testimonial-item__thumb">
-                    <img src="assets/images/testimonials/thumbs/1.png" alt="author thumb">
-                  </div><!-- /.testimonial-thumb -->
-                  <div class="testimonial-item__body">
-                    <div class="testimonial-item__rating">
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                    </div>
-                    <p class="testimonial-item__desc">If you’re looking for a rewarding career and the chance to make an
-                      impact, you’ve come to the right place. We will transform your business through our techniques!
-                    </p>
-                    <div class="testimonial-item__meta">
-                      <h4 class="testimonial-item__meta__title">John Peter</h4>
-                      <p class="testimonial-item__meta__desc">7oroof Inc</p>
-                    </div><!-- /.testimonial-meta -->
-                  </div>
-                </div><!-- /. testimonial-item -->
-                <!-- Testimonial #2 -->
-                <div class="testimonial-item d-flex">
-                  <div class="testimonial-item__thumb">
-                    <img src="assets/images/testimonials/thumbs/2.png" alt="author thumb">
-                  </div><!-- /.testimonial-thumb -->
-                  <div class="testimonial-item__body">
-                    <div class="testimonial-item__rating">
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                    </div>
-                    <p class="testimonial-item__desc">If you’re looking for a rewarding career and the chance to make an
-                      impact, you’ve come to the right place. We will transform your business through our techniques!
-                    </p>
-                    <div class="testimonial-item__meta">
-                      <h4 class="testimonial-item__meta__title">Ahmed Abdallah</h4>
-                      <p class="testimonial-item__meta__desc">7oroof Inc</p>
-                    </div><!-- /.testimonial-meta -->
-                  </div>
-                </div><!-- /. testimonial-item -->
-                <!-- Testimonial #3 -->
-                <div class="testimonial-item d-flex">
-                  <div class="testimonial-item__thumb">
-                    <img src="assets/images/testimonials/thumbs/3.png" alt="author thumb">
-                  </div><!-- /.testimonial-thumb -->
-                  <div class="testimonial-item__body">
-                    <div class="testimonial-item__rating">
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                    </div>
-                    <p class="testimonial-item__desc">If you’re looking for a rewarding career and the chance to make an
-                      impact, you’ve come to the right place. We will transform your business through our techniques!
-                    </p>
-                    <div class="testimonial-item__meta">
-                      <h4 class="testimonial-item__meta__title">Begha</h4>
-                      <p class="testimonial-item__meta__desc">7oroof Inc</p>
-                    </div><!-- /.testimonial-meta -->
-                  </div>
-                </div><!-- /. testimonial-item -->
-              </div>
-            </div><!-- /.col-xl-7 -->
-          </div><!-- /.row -->
-        </div><!-- /.container -->
-      </section><!-- /.testimonials 2 -->
 
-      <!-- ======================
-            Blog Grid
-      ========================= -->
-      <section class="blog-grid pb-50">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
-              <div class="heading text-center mb-40">
-                <h2 class="heading__subtitle">Recent Articles</h2>
-                <h3 class="heading__title">Resource Library</h3>
-              </div><!-- /.heading -->
-            </div><!-- /.col-lg-6 -->
-          </div><!-- /.row -->
-          <div class="row">
-            <!-- Blog Item #1 -->
-            <div class="col-sm-12 col-md-4 col-lg-4">
-              <div class="post-item">
-                <div class="post-item__img">
-                  <a href="blog-single-post.html">
-                    <img src="assets/images/blog/grid/1.jpg" alt="blog image">
-                  </a>
-                </div><!-- /.blog-img -->
-                <div class="post-item__content">
-                  <div class="post-item__meta d-flex flex-wrap">
-                    <div class="post-item__meta__cat">
-                      <a href="#">Consulting</a><a href="#">Sales</a>
-                    </div><!-- /.blog-meta-cat -->
-                    <span class="post-item__meta__date">May 13, 2020</span>
-                  </div>
-                  <h4 class="post-item__title"><a href="#">Five Ways to Develop a World Class Sales Operations
-                      Function</a>
-                  </h4>
-                  <p class="post-item__desc">Outsourcing IT infrastructure is a concept that has been around for a while.
-                    Characterized in terms of technicians and engineers, workstations and servers, the idea of outsourcing
-                    your basic IT needs...
-                  </p>
-                  <a href="blog-single-post.html" class="btn btn__secondary btn__link">
-                    <span>Read More</span>
-                    <i class="icon-arrow-right"></i>
-                  </a>
-                </div><!-- /.blog-content -->
-              </div><!-- /.post-item -->
-            </div><!-- /.col-lg-4 -->
-            <!-- Blog Item #2 -->
-          </div><!-- /.row -->
-        </div><!-- /.container -->
-      </section><!-- /.blog Grid -->
+            <div class="shape-img1">
+                <img src="{!! asset('theme/img/shape/1.svg') !!}" alt="image">
+            </div>
+            <div class="shape-img2">
+                <img src="{!! asset('theme/img/shape/2.svg') !!}" alt="image">
+            </div>
+            <div class="shape-img3">
+                <img src="{!! asset('theme/img/shape/3.png') !!}" alt="image">
+            </div>
+            <div class="shape-img4">
+                <img src="{!! asset('theme/img/shape/4.png') !!}" alt="image">
+            </div>
+            <div class="shape-img5">
+                <img src="{!! asset('theme/img/shape/6.png') !!}" alt="image">
+            </div>
+		</div>
+        <!-- End Startup Home Area -->
+
+        <!-- Start Partner Two Area -->
+        <div class="partnar-two-section">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="appreciate">
+                            <h3>They Just Appreciate Our Company work</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="partner-slider owl-carousel owl-theme">
+                            <div class="partner-item">
+                                <a href="#">
+                                    <img src="assets/img/partnar/6.png" alt="partner">
+                                </a>
+                            </div>
+                            <div class="partner-item">
+                                <a href="#">
+                                    <img src="assets/img/partnar/7.png" alt="partner">
+                                </a>
+                            </div>
+                            <div class="partner-item">
+                                <a href="#">
+                                    <img src="assets/img/partnar/8.png" alt="partner">
+                                </a>
+                            </div>
+                            <div class="partner-item">
+                                <a href="#">
+                                    <img src="assets/img/partnar/9.png" alt="partner">
+                                </a>
+                            </div>
+                            <div class="partner-item">
+                                <a href="#">
+                                    <img src="assets/img/partnar/10.png" alt="partner">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Partner Two Area -->
+
+        <!-- Start Solutions Section -->
+        <section class="solutions-section ptb-100">
+            <div class="container">
+                <div class="solutions-title">
+                    <span>What We do</span>
+                    <h3>Solutions tailored to fit your world</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolet, consectetur adipiscing  seore suspendisse ultrices gravir.</p>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="solutions-area-content">
+                            <div class="icon">
+                                <i class="flaticon-data"></i>
+                            </div>
+                            <h3>User-Friendly Behaviour For Business mind people</h3>
+                            <p>Lorem ipsum dolor sit amet consecte adipiscing elit sed do eiusincidunt.</p>
+                            <a href="single-services.html" class="">Read More</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="solutions-area-content">
+                            <div class="icon">
+                                <i class="flaticon-goal"></i>
+                            </div>
+                            <h3>Business Development All Kind of Business</h3>
+                            <p>Lorem ipsum dolor sit amet consecte adipiscing elit sed do eiusincidunt.</p>
+                            <a href="single-services.html" class="">Read More</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0">
+                        <div class="solutions-area-content">
+                            <div class="icon">
+                                <i class="flaticon-modules"></i>
+                            </div>
+                            <h3>Management is no risk here if We support you</h3>
+                            <p>Lorem ipsum dolor sit amet consecte adipiscing elit sed do eiusincidunt.</p>
+                            <a href="single-services.html" class="">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Solutions Section -->
+
+        <!-- Start About Section -->
+        <section class="about-section pb-100">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="circulate-image">
+                            <img src="assets/img/about.jpg" alt="image">
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-12">
+                        <div class="about-content-area">
+                            <span>About us</span>
+                            <h3>Circulate every stage of the strategic business</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed aliquaem ipsum dolor si Ut enim ad minim venia.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+                            <div class="about-btn">
+                                <a href="about.html" class="about-btn-one">
+                                    Discover More <i class="fa fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End About Section -->
+
+        <!-- Start Co-operative Section -->
+        <section class="co-operative-section">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="co-operative-title">
+                            <span>The Fame</span>
+                            <h2>Co-operative tools for business administration</h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="co-operative-text">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusd tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim venia.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="co-operative-content">
+                    <a href="https://www.youtube.com/watch?v=bk7McNUjWgw" class="video-btn popup-youtube">
+                        <i class="fas fa-play"></i>
+                    </a>
+                    <h3>Perfect tools for business Organization</h3>
+                </div>
+            </div>
+        </section>
+        <!-- End Co-operative Section -->
+
+        <!-- Start Counter Area -->
+        <section class="counter-area bg-color">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="single-fun-facts">
+                            <h3>
+                                <span class="odometer" data-count="5890">00</span><span class="sign-icon">+</span>
+                            </h3>
+                            <p>Completed projects</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="single-fun-facts">
+                            <h3>
+                                <span class="odometer" data-count="100">00</span><span class="sign-icon">+</span>
+                            </h3>
+                            <p>Customer satisfaction</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="single-fun-facts">
+                            <h3>
+                                <span class="odometer" data-count="40">00</span><span class="sign-icon">y</span>
+                            </h3>
+                            <p>Expert Support Team</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="single-fun-facts">
+                            <h3>
+                                <span class="odometer" data-count="30">00</span><span class="sign-icon">k</span>
+                            </h3>
+                            <p>Sales in Count</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Counter Area -->
+
+        <!-- Start Grow Section -->
+        <section class="grow-section ptb-100">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="grow-area-content">
+                            <span>How it’s Grow</span>
+                            <h3>We provide the best service for your customers</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A voluptatibus sint aut laborum obcaecati necessitatibus reprehenderit architecto quod distinctio vitae ipsa repellendus molestias dignissimos quo, corporis.</p>
+                            <div class="row align-items-center">
+                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                    <div class="grow-content-bar">
+                                        <span>100%</span>
+                                        <h3>Financial Services</h3>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                    <div class="grow-content-bar bg-00a86f">
+                                        <span>98%</span>
+                                        <h3>Marketing Services</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grow-btn">
+                                <a href="#" class="grow-btn-one">Discover More
+                                    <i class="fa fa-arrow-right"></i>
+                                </a>
+                                <a href="#" class="grow-btn-two">How it’s work
+                                    <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-12">
+                        <div class="grow-image">
+                            <img src="assets/img/grow.jpg" alt="image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Grow Section -->
+
+        <!-- Start Develop Section -->
+        <section class="develop-section pb-100">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="develop-image">
+                            <img src="assets/img/develop.jpg" alt="image">
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-12">
+                        <div class="develop-content-area">
+                            <span>our benefits</span>
+                            <h3>Momentous things liable to develop a business </h3>
+                            <div class="develop-single-area">
+                                <div class="icon">
+                                    <i class="flaticon-work-time"></i>
+                                </div>
+                                <h3>Big Data Analysis</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor   dolorem ipsum quia dolor sit amet.</p>
+                            </div>
+
+                            <div class="develop-single-area bg-00a86f">
+                                <div class="icon">
+                                    <i class="flaticon-monitor"></i>
+                                </div>
+                                <h3>Product Engineering</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor   dolorem ipsum quia dolor sit amet.</p>
+                            </div>
+
+                            <div class="develop-single-area bg-07328f">
+                                <div class="icon">
+                                    <i class="flaticon-it"></i>
+                                </div>
+                                <h3>Managed IT Service</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor   dolorem ipsum quia dolor sit amet.</p>
+                            </div>
+                            <div class="develop-btn">
+                                <a href="#" class="develop-btn-one">
+                                    Discover More
+                                    <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Develop Section -->
+
+        <!-- Start Blog Section -->
+        <section class="blog-section startup-blog pt-100 pb-70">
+            <div class="container">
+                <div class="blog-title">
+                    <span>News update</span>
+                    <h3>Check Our Story Slightly</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolet, consectetur adipiscing.</p>
+                    <div class="blog-btn">
+                        <a href="blog.html" class="blog-btn-one">
+                            All Blog
+                            <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="blog-item">
+                            <div class="blog-image">
+                                <a href="single-blog.html">
+                                    <img src="assets/img/blog/1.jpg" alt="image">
+                                </a>
+                            </div>
+                            <div class="single-blog-item">
+                                <div class="blog-content">
+                                    <a href="single-blog.html">
+                                        <h3>Boost your Startup agency with Digital Agency</h3>
+                                    </a>
+                                    <p>Lorem ipsum dolor sit amconsectetur adipiscing elit, sed do eiusmodor.</p>
+                                </div>
+                                <ul class="blog-list">
+                                    <li>
+                                        <a href="single-blog.html">
+                                            <i class="flaticon-user"></i>
+                                            Janathon Doe
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <i class="flaticon-appointment"></i>
+                                        03 January 2021
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="blog-item">
+                            <div class="blog-image">
+                                <a href="single-blog.html">
+                                    <img src="assets/img/blog/2.jpg" alt="image">
+                                </a>
+                            </div>
+                            <div class="single-blog-item">
+                                <div class="blog-content">
+                                    <a href="single-blog.html">
+                                        <h3>Get the support from the main appointment center</h3>
+                                    </a>
+                                    <p>Lorem ipsum dolor sit amconsectetur adipiscing elit, sed do eiusmodor.</p>
+                                </div>
+                                <ul class="blog-list">
+                                    <li>
+                                        <a href="#">
+                                            <i class="flaticon-user"></i>
+                                            JKapler Done
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <i class="flaticon-appointment"></i>
+                                        03 January 2021
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0">
+                        <div class="blog-item">
+                            <div class="blog-image">
+                                <a href="single-blog.html">
+                                    <img src="assets/img/blog/3.jpg" alt="image">
+                                </a>
+                            </div>
+                            <div class="single-blog-item">
+                                <div class="blog-content">
+                                    <a href="single-blog.html">
+                                        <h3>The startup is first priority to go ahead Digital Agency</h3>
+                                    </a>
+                                    <p>Lorem ipsum dolor sit amconsectetur adipiscing elit, sed do eiusmodor.</p>
+                                </div>
+                                <ul class="blog-list">
+                                    <li>
+                                        <a href="#">
+                                            <i class="flaticon-user"></i>
+                                            Jandu Jon
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <i class="flaticon-appointment"></i>
+                                        03 January 2021
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Blog Section -->
+
+        <!-- Start Job Opportunities Section -->
+        <section class="job-opportunities ptb-100">
+            <div class="container">
+                <div class="section-title">
+                    <span>Contract us</span>
+                    <h3>Work inquiry, Job opportunities</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolet, consectetur adipiscing  seore suspendisse ultrices gravir.</p>
+                </div>
+                <div class="grow-btn">
+                    <a href="contact.html" class="grow-btn-one">Contract us today
+                        <i class="fa fa-arrow-right"></i>
+                    </a>
+                    <a href="#" class="grow-btn-two">Call for more info
+                        <i class="fa fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- End Job Oportunities Section -->
+
+
 
 @endsection

@@ -2,138 +2,127 @@
 
 @section('content')
 
+   <!-- =========================
+            Google Map
+    =========================  -->
+    <section class="google-map py-0">
+        <div id="map" class="height-500"></div>
+        <script src="assets/js/google-map.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+        <!-- CLICK HERE (https://developers.google.com/maps/documentation/embed/get-api-key) TO  LERAN MORE ABOUT GOOGLE MAPS API KEY -->
+      </section><!-- /.GoogleMap -->
 
-    <!-- ==========================
+   <!-- ==========================
         contact layout 1
     =========================== -->
-    <section class="contact-layout1">
+    <section class="contact-layout1 pb-60">
         <div class="container">
           <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-6">
-              <form class="contact-panel__form" method="post" action="{!! asset('theme/php/contact.php') !!}" id="contactForm">
+            <div class="col-sm-12 col-md-12 col-lg-7 mb-3">
+              <form class="contact-form" method="post" action="assets/php/contact.php" id="contactForm">
                 <div class="row">
                   <div class="col-sm-12">
-                    <h4 class="contact-panel__title">Get In Touch</h4>
+                    <h4 class="contact-panel__title">Get In Touchxxx</h4>
                   </div>
                   <div class="col-sm-6 col-md-6 col-lg-6">
                     <div class="form-group">
-                      <label for="contact-name">Name (required)</label>
                       <input type="text" class="form-control" placeholder="Name" id="contact-name" name="contact-name"
                         required>
                     </div>
                   </div><!-- /.col-lg-6 -->
                   <div class="col-sm-6 col-md-6 col-lg-6">
                     <div class="form-group">
-                      <label for="contact-email">Email (required)</label>
                       <input type="email" class="form-control" placeholder="Email" id="contact-email" name="contact-email"
                         required>
                     </div>
                   </div><!-- /.col-lg-6 -->
                   <div class="col-sm-6 col-md-6 col-lg-6">
                     <div class="form-group">
-                      <label for="contact-Phone">Phone (required)</label>
                       <input type="text" class="form-control" placeholder="Phone" id="contact-Phone" name="contact-phone"
                         required>
                     </div>
                   </div><!-- /.col-lg-6 -->
                   <div class="col-sm-6 col-md-6 col-lg-6">
                     <div class="form-group">
-                      <label for="contact-website">Website (optional)</label>
-                      <input type="text" class="form-control" placeholder="Website (optional)" id="contact-website"
+                      <input type="text" class="form-control" placeholder="Website" id="contact-website"
                         name="contact-website">
                     </div>
                   </div><!-- /.col-lg-6 -->
-                  <div class="col-sm-12 col-md-12 col-lg-12">
+                  <div class="col-12">
                     <div class="form-group mb-20">
-                      <label for="contact-message">Additional Details (optional)</label>
-                      <textarea class="form-control" placeholder="Describe your inquirey!" id="contact-message"
+                      <textarea class="form-control" placeholder="Additional Details!" id="contact-message"
                         name="contact-message"></textarea>
                     </div>
-                    <div class="custom-control custom-checkbox d-flex align-items-center  mb-20">
-                      <input type="checkbox" class="custom-control-input" id="terms">
-                      <label class="custom-control-label" for="terms">I accept the privacy and terms.</label>
-                    </div>
-                    <button type="submit" class="btn btn__secondary btn__block ">Submit Request</button>
+                    <button type="submit" class="btn btn__primary btn__xhight mt-10">Submit Request</button>
                     <div class="contact-result"></div>
-                  </div><!-- /.col-lg-12 -->
+                  </div><!-- /.col-12 -->
                 </div><!-- /.row -->
               </form>
             </div><!-- /.col-lg-6 -->
-            <div class="col-sm-12 col-md-12 col-lg-5 offset-lg-1">
-              <div class="contact-panel__info bg-overlay bg-overlay-primary">
-                <div class="bg-img"><img src="{!! asset('theme/images/contact/1.jpg') !!}" alt="banner"></div>
-                <div class="contact-block">
-                  <h5 class="contact-block__title">Our Locations</h5>
-                  <ul class="contact-block__list list-unstyled">
-                    <li>Abuja, Lagos, Minna</li>
-                  </ul>
-                </div><!-- /.contact-panel__info__block -->
-                <div class="contact-block">
-                  <h5 class="contact-block__title">Quick Contact</h5>
-                  <ul class="contact-block__list list-unstyled">
-                    <li><a href="mailto:hello@logeaksolutions.com"></a>Email: hello@logeaksolutions.com</li>
-
-                  </ul>
-                </div><!-- /.contact-panel__info__block -->
-                <div class="contact-block">
-                  <h5 class="contact-block__title">Opening Hours</h5>
-                  <ul class="contact-block__list list-unstyled">
-                    <li>Monday - Friday</li>
-                    <li>8 am - 5 pm  </li>
-                  </ul>
-                </div><!-- /.contact-panel__info__block -->
-                <a href="#" class="btn btn__white btn__bordered btn__icon btn__xl">
-                  <span>Find Your Solution</span>
+            <div class="col-sm-12 col-md-12 col-lg-4 offset-lg-1 mb-3">
+              <div class="contact-info d-flex flex-column justify-content-between">
+                <div class="bg-img"><img src="assets/images/contact/1.jpg" alt="banner"></div>
+                <div>
+                  <h4 class="contact-info__title">450,000 client’s interactions!</h4>
+                  <p class="contact-info__desc">Provide users with appropriate view access to requests, problems, changes,
+                    contracts & solutions with experienced professionals.</p>
+                  <p class="contact-info__desc">As one of the world's largest ITService Providers, we are ready to help.
+                  </p>
+                </div>
+                <a href="contact-us.html" class="btn btn__white btn__bordered btn__icon">
+                  <span>Download Brochure</span>
                   <i class="icon-arrow-right"></i>
                 </a>
-              </div>
-            </div><!-- /.col-lg-5 -->
+              </div><!-- /.contact-info -->
+            </div><!-- /.col-lg-4 -->
           </div><!-- /.row -->
         </div><!-- /.container -->
       </section><!-- /.contact layout 1 -->
 
       <!-- ==========================
-         Contact Info
+         Contact layout 2
       ============================ -->
-      <section class="contact-info pt-0 pb-70">
+      <section class="contact-layout2 pt-0 pb-80">
         <div class="container">
           <div class="row">
             <!-- Contact panel #1 -->
             <div class="col-sm-12 col-md-4 col-lg-4">
               <div class="contact-info-box">
-                <h4 class="contact__info-box-title">Abuja Office</h4>
+                <h4 class="contact__info-box-title">London Office</h4>
                 <ul class="contact__info-list list-unstyled">
-                  <li>Address: Drive 2 Prince and princess estate, Abuja NG</li>
-                  <li>Phone: <a href="tel:"></a></li>
-                  <li>Hours: Mon-Fri: 8 am – 5 pm GMT + 1</li>
+                  <li>Email: <a href="mailto:smartdata@7oroof.com">SmartData@7oroof.com</a></li>
+                  <li>Address: 2307 Beverley Rd Brooklyn, NY</li>
+                  <li>Phone: <a href="tel:5565454117">55 654 541 17</a></li>
+                  <li>Hours: Mon-Fri: 8am – 7pm</li>
                 </ul><!-- /.contact__info-list -->
               </div><!-- /.contact-info-box -->
             </div><!-- /.col-lg-4 -->
             <!-- Contact panel #2 -->
             <div class="col-sm-12 col-md-4 col-lg-4">
               <div class="contact-info-box">
-                <h4 class="contact__info-box-title">Minna Office</h4>
+                <h4 class="contact__info-box-title">Berlin Office</h4>
                 <ul class="contact__info-list list-unstyled">
-                  <li>Address: Suite C1, Peniel Albarka Plaza, Opp. Federal Highcourt, Minna</li>
-                  <li>Phone: <a href="tel:"></a></li>
-                  <li>Hours: Mon - Fri: 8 am – 5 pm GMT +1</li>
+                  <li>Email: <a href="mailto:smartdata@7oroof.com">SmartData@7oroof.com</a></li>
+                  <li>Address: 2307 Beverley Rd Brooklyn, NY</li>
+                  <li>Phone: <a href="tel:5565454117">55 654 541 17</a></li>
+                  <li>Hours: Mon-Fri: 8am – 7pm</li>
                 </ul><!-- /.contact__info-list -->
               </div><!-- /.contact-info-box -->
             </div><!-- /.col-lg-4 -->
             <!-- Contact panel #3 -->
             <div class="col-sm-12 col-md-4 col-lg-4">
               <div class="contact-info-box">
-                <h4 class="contact__info-box-title">Lagos Office</h4>
+                <h4 class="contact__info-box-title">Manchester Office</h4>
                 <ul class="contact__info-list list-unstyled">
+                  <li>Email: <a href="mailto:smartdata@7oroof.com">SmartData@7oroof.com</a></li>
                   <li>Address: 2307 Beverley Rd Brooklyn, NY</li>
-                  <li>Phone: <a href="tel:"></a></li>
-                  <li>Hours: Mon-Fri: 8 am – 5 pm GMT + 1</li>
+                  <li>Phone: <a href="tel:5565454117">55 654 541 17</a></li>
+                  <li>Hours: Mon-Fri: 8am – 7pm</li>
                 </ul><!-- /.contact__info-list -->
               </div><!-- /.contact-info-box -->
             </div><!-- /.col-lg-4 -->
           </div><!-- /.row -->
         </div><!-- /.container -->
-      </section><!-- /.Contact Info -->
-
+      </section><!-- /.Contact layout 2 -->
 
 @endsection

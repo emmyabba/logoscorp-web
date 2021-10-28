@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Mail;
 
 class WelcomeController extends Controller
 {
@@ -22,6 +23,28 @@ class WelcomeController extends Controller
 
         return view('contactus', compact('title', 'keywords', 'description'));
     }
+
+    public function sendcontactmail(Request $request)
+    {
+        $this->validate($request, [
+                        'name' => 'required',
+                        'email' => 'required|email',
+                        'comment' => 'required'
+                ]);
+
+        Mail::send('emails.contactus', [
+                'name' => $request->get('name'),
+                'email' => $request->get('email'),
+                'comment' => $request->get('comment') ],
+                function ($message) {
+                        $message->from('hello@logeaksolutions.com');
+                        $message->to('hello@logeaksolutions', 'Your Name')
+                        ->subject('Your Website Contact Form');
+        });
+
+        return back()->with('success', 'Thanks for contacting me, I will get back to you soon!');
+
+    }
     public function aboutus()
     {
         $description    = 'About us';
@@ -30,4 +53,6 @@ class WelcomeController extends Controller
 
         return view('contactus', compact('title', 'keywords', 'description'));
     }
+
+
 }
