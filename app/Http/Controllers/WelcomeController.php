@@ -38,6 +38,8 @@ class WelcomeController extends Controller
         Mail::send('emails.contactus', [
                 'name' => $request->get('name'),
                 'email' => $request->get('email'),
+                'phone_number' => $request->get('phone_number'),
+                'subject' => $request->get('subject'),
                 'comment' => $request->get('comment') ],
                 function ($message) {
                         $message->from('hello@logeaksolutions.com');

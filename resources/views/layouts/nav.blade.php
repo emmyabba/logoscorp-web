@@ -32,7 +32,7 @@
                             <ul class="dropdown-menu">
                                 <li class="nav-item">
                                     <a href="" class="nav-link">About Us</a>
-                                    <a href="" class="nav-link">Contact Us</a>
+                                    <a href="{{route('contactus')}}" class="nav-link">Contact Us</a>
                                     <a href="" class="nav-link">Our clients</a>
                                 </li>
                             </ul>

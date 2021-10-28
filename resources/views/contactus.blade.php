@@ -7,43 +7,42 @@
     <div class="container">
         <div class="section-title">
             <h2>Contact Us</h2>
-            <p>We love to hear from you. Tell us about a cool project we can collaborate on  </p>
+            <p>We'd love to hear from you. <br>Tell us about a cool project you are working on or inquire about our products and services</p>
         </div>
         <div class="row">
-            <div class="col-lg-4 col-md-6">
-                <div class="single-contact-box">
-                    <i class="fa fa-map-marker"></i>
-                    <div class="content-title">
-                        <h3>Address</h3>
-                        <p>Abuja Nigeria</p>
+            <div class="col-lg-6">
+                <div class="col-md-12">
+                    <div class="single-contact-box">
+                        <i class="fa fa-map-marker"></i>
+                        <div class="content-title">
+                            <h3>Address</h3>
+                            <p>Abuja Nigeria</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="single-contact-box">
+                        <i class="fa fa-envelope"></i>
+                        <div class="content-title">
+                            <h3>Email</h3>
+                            <a href="mailto:hello@logeaksolutions.com">hello@logeaksolutions.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="single-contact-box">
+                        <i class="fa fa-phone"></i>
+                        <div class="content-title">
+                            <h3>Phone</h3>
+                            <a href="tel:+2348185877551">+234 (0) 818-587-7551</a>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="single-contact-box">
-                    <i class="fa fa-envelope"></i>
-                    <div class="content-title">
-                        <h3>Email</h3>
-                        <a href="mailto:hello@logeaksolutions.com">hello@logeaksolutions.com</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0">
-                <div class="single-contact-box">
-                    <i class="fa fa-phone"></i>
-                    <div class="content-title">
-                        <h3>Phone</h3>
-                        <a href="tel:+2348185877551">+234 (0) 818-587-7551</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- End Contact Box Area -->
+            <div class="col-lg-6">
 
 <!-- Start Contact Area -->
-{{-- <section class="contact-area pb-100">
+<section class="contact-area pb-100">
     <div class="container">
 
         <div class="row">
@@ -81,7 +80,7 @@
 
                             <div class="col-lg-12">
                                 <div class="form-group">
-                                    <textarea name="message" class="form-control" id="message" cols="30" rows="6" required data-error="Write your message" placeholder="Your Message"></textarea>
+                                    <textarea name="comment" class="form-control" id="comment" cols="30" rows="6" required data-error="Write your message" placeholder="Your Message"></textarea>
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
@@ -98,7 +97,13 @@
             </div>
         </div>
     </div>
-</section> --}}
+</section>
 <!-- End Contact Area -->
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Contact Box Area -->
+
 
 @endsection
