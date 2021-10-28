@@ -10554,4 +10554,8 @@ Sidebar Menu Style
 .inner-update-section::after {
   display: none;
 }
+.slideImg {
+    border-radius: 30%;
+  }
 /*# sourceMappingURL=style.css.map */
+

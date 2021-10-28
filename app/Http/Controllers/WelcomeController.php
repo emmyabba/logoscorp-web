@@ -9,11 +9,14 @@ class WelcomeController extends Controller
 {
     public function index()
     {
+        $sliderImages = array( "a"=>"1", "b"=>"2", "c"=>"3");
+        shuffle($sliderImages);
+        $sliderImage =  $sliderImages[0];
         $description    = 'Home';
         $keywords        = 'Offficial, logeak, elearning, web design, no 1 web developer, no 1 elearning consultant';
         $title          = 'Home';
 
-        return view('home', compact('title', 'keywords', 'description'));
+        return view('home', compact('title', 'keywords', 'description', 'sliderImage'));
     }
     public function contactus()
     {

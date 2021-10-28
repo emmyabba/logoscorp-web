@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'WelcomeController@index')->name('welcome');
+Route::get('/', 'WelcomeController@index')->name('home');
 Route::get('/blog', 'WelcomeController@blog')->name('blog');
 Route::get('/software-development', 'WelcomeController@index')->name('welcome');
 Route::get('/contact-us', 'WelcomeController@contactus')->name('contactus');

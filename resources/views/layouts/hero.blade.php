@@ -8,7 +8,7 @@
                         <div class="hero-content">
                             {{-- <span>We are a startup Agency</span> --}}
                             <h1>Enabling innovation with <b>technology</b></h1>
-                            <p>We automate processes for businesses and academia with bespoke and turnkey software solutions</p>
+                            <p>We automate processes for businesses and academia with bespoke and turnkey IT solutions</p>
                             <div class="startup-btn">
                                 <a href="#" class="startup-btn-one">
                                    Learn more <i class="fa fa-arrow-right"></i>
@@ -23,7 +23,7 @@
 
                     <div class="col-lg-6 col-md-12">
                         <div class="startup-image">
-                            <img src="{!! asset('logostheme/img/startup-home/logeak-banner-1.png') !!}" class="wow fadeInUp" data-wow-delay="0.6s" alt="image">
+                            <img src="{!! asset('logostheme/img/startup-home/') !!}/logeak-banner-{{$sliderImage}}.png" class="wow fadeInRight slideImg" data-wow-delay="0.6s" alt="image">
                         </div>
                     </div>
                     <div class="startup-shape">
