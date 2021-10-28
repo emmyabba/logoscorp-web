@@ -5,7 +5,7 @@
             <div class="exto-responsive-menu">
                 <div class="logo">
                     <a href="index.html">
-                        <img src="{!! asset('theme/img/logo/logo-dark.png') !!}" alt="logo">
+                        <img src="{!! asset('logostheme/img/logo/logo-dark.png') !!}" alt="logo">
                     </a>
                 </div>
             </div>
@@ -16,7 +16,7 @@
         <div class="container">
             <nav class="navbar navbar-expand-md navbar-light">
                 <a class="navbar-brand" href="index.html">
-                    <img src="{!! asset('theme/img/logo/logo-dark.png') !!}" alt="logo">
+                    <img src="{!! asset('logostheme/img/logo/logo-dark.png') !!}" alt="logo">
                 </a>
                 <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
                     <ul class="navbar-nav">
@@ -26,7 +26,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link active">
+                            <a href="#" class="nav-link">
                                 Company
                             </a>
                         </li>
@@ -37,9 +37,9 @@
                             </a>
                             <ul class="dropdown-menu">
                                 <li class="nav-item">
-                                    <a href="" class="nav-link">eLearning content</a>
-                                    <a href="" class="nav-link">eLearning platforms</a>
-                                    <a href="" class="nav-link">Translations & Localization</a>
+                                    <a href="" class="nav-link">Learning content</a>
+                                    <a href="" class="nav-link">Learning platforms</a>
+                                    <a href="" class="nav-link">Translations</a>
                                     <a href="" class="nav-link">Web development</a>
                                     <a href="" class="nav-link">Mobile apps</a>
                                 </li>
@@ -52,7 +52,10 @@
                             </a>
                             <ul class="dropdown-menu">
                                 <li class="nav-item">
-                                    <a href="" class="nav-link"></a>
+                                    <a href="" class="nav-link">HESS Homes</a>
+                                    <a href="" class="nav-link">Forte</a>
+                                    <a href="" class="nav-link">Famz</a>
+                                    <a href="" class="nav-link">CV Monger</a>
 
                                 </li>
 

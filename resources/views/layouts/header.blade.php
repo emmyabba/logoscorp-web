@@ -13,33 +13,33 @@
 
 
         <!-- Bootstrap Min CSS -->
-        <link rel="stylesheet" href="{!! asset('theme/css/bootstrap.min.css') !!}">
+        <link rel="stylesheet" href="{!! asset('logostheme/css/bootstrap.min.css') !!}">
         <!-- Animate Min CSS -->
-        <link rel="stylesheet" href="{!! asset('theme/css/animate.min.css') !!}">
+        <link rel="stylesheet" href="{!! asset('logostheme/css/animate.min.css') !!}">
         <!-- FlatIcon CSS -->
-        <link rel="stylesheet" href="{!! asset('theme/css/flaticon.css') !!}">
+        <link rel="stylesheet" href="{!! asset('logostheme/css/flaticon.css') !!}">
         <!-- FlatIcon Two CSS -->
-        <link rel="stylesheet" href="{!! asset('theme/css/flaticon-two.css') !!}">
+        <link rel="stylesheet" href="{!! asset('logostheme/css/flaticon-two.css') !!}">
         <!-- FlatIcon Three CSS -->
-        <link rel="stylesheet" href="{!! asset('theme/css/flaticon-three.css') !!}">
+        <link rel="stylesheet" href="{!! asset('logostheme/css/flaticon-three.css') !!}">
         <!-- Odometer Min CSS -->
-        <link rel="stylesheet" href="{!! asset('theme/css/odometer.min.css') !!}">
+        <link rel="stylesheet" href="{!! asset('logostheme/css/odometer.min.css') !!}">
         <!-- MeanMenu CSS -->
-        <link rel="stylesheet" href="{!! asset('theme/css/meanmenu.css') !!}">
+        <link rel="stylesheet" href="{!! asset('logostheme/css/meanmenu.css') !!}">
         <!-- Magnific Popup Min CSS -->
-        <link rel="stylesheet" href="{!! asset('theme/css/magnific-popup.min.css') !!}">
+        <link rel="stylesheet" href="{!! asset('logostheme/css/magnific-popup.min.css') !!}">
         <!-- Nice Select Min CSS -->
-        <link rel="stylesheet" href="{!! asset('theme/css/nice-select.min.css') !!}">
+        <link rel="stylesheet" href="{!! asset('logostheme/css/nice-select.min.css') !!}">
         <!-- Owl Carousel Min CSS -->
-        <link rel="stylesheet" href="{!! asset('theme/css/owl.carousel.min.css') !!}">
+        <link rel="stylesheet" href="{!! asset('logostheme/css/owl.carousel.min.css') !!}">
         <!-- Font Awesome Min CSS -->
-        <link rel="stylesheet" href="{!! asset('theme/css/fontawesome.min.css') !!}">
+        <link rel="stylesheet" href="{!! asset('logostheme/css/fontawesome.min.css') !!}">
         <!-- Style CSS -->
-        <link rel="stylesheet" href="{!! asset('theme/css/style.css') !!}">
+        <link rel="stylesheet" href="{!! asset('logostheme/css/style.css') !!}">
         <!-- Responsive CSS -->
-        <link rel="stylesheet" href="{!! asset('theme/css/responsive.css') !!}">
+        <link rel="stylesheet" href="{!! asset('logostheme/css/responsive.css') !!}">
 
-        <link rel="icon" type="image/png" href="{!! asset('theme/img/favicon/favicon.ico') !!}">
+        <link rel="icon" type="image/png" href="{!! asset('logostheme/img/favicon/favicon.ico') !!}">
     </head>
 
     <body>

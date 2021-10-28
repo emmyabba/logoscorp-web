@@ -2,101 +2,49 @@
 
 @section('content')
 
-        <!-- Start Startup Home Area -->
-        <div class="startup-home-area">
-			<div class="d-table">
-				<div class="d-table-cell">
-					<div class="container">
-						<div class="row align-items-center">
-							<div class="col-lg-6 col-md-12">
-								<div class="hero-content">
-                                    <span>We are a startup Agency</span>
-									<h1>Business Makes Success <b>Strategy</b></h1>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolet suspendisse ultrices gravida. </p>
-                                    <div class="startup-btn">
-                                        <a href="#" class="startup-btn-one">
-                                            Get A Quote <i class="fa fa-arrow-right"></i>
-                                        </a>
-                                        <a href="https://www.youtube.com/watch?v=_ysd-zHamjk" class="startup-btn-two popup-youtube">
-                                            Watch The Demo
-                                            <i class="fa fa-arrow-right"></i>
-                                        </a>
-                                    </div>
-								</div>
-                            </div>
-
-                            <div class="col-lg-6 col-md-12">
-								<div class="startup-image">
-                                    <img src="{!! asset('theme/img/startup-home/startup.png') !!}" class="wow fadeInUp" data-wow-delay="0.6s" alt="image">
-                                </div>
-                            </div>
-                            <div class="startup-shape">
-                                <img src="{!! asset('theme/img/startup-home/startup-shape.png') !!}" alt="image">
-                            </div>
-						</div>
-					</div>
-				</div>
-            </div>
-
-            <div class="shape-img1">
-                <img src="{!! asset('theme/img/shape/1.svg') !!}" alt="image">
-            </div>
-            <div class="shape-img2">
-                <img src="{!! asset('theme/img/shape/2.svg') !!}" alt="image">
-            </div>
-            <div class="shape-img3">
-                <img src="{!! asset('theme/img/shape/3.png') !!}" alt="image">
-            </div>
-            <div class="shape-img4">
-                <img src="{!! asset('theme/img/shape/4.png') !!}" alt="image">
-            </div>
-            <div class="shape-img5">
-                <img src="{!! asset('theme/img/shape/6.png') !!}" alt="image">
-            </div>
-		</div>
-        <!-- End Startup Home Area -->
+@include('layouts.hero')
 
         <!-- Start Partner Two Area -->
-        <div class="partnar-two-section">
+        {{-- <div class="partnar-two-section">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-4">
                         <div class="appreciate">
-                            <h3>They Just Appreciate Our Company work</h3>
+                            <h3>Our clients and partners</h3>
                         </div>
                     </div>
                     <div class="col-lg-8">
                         <div class="partner-slider owl-carousel owl-theme">
                             <div class="partner-item">
                                 <a href="#">
-                                    <img src="assets/img/partnar/6.png" alt="partner">
+                                    <img src="{!! asset('theme/img/partnar/6.png') !!}" alt="partner">
                                 </a>
                             </div>
                             <div class="partner-item">
                                 <a href="#">
-                                    <img src="assets/img/partnar/7.png" alt="partner">
+                                    <img src="{!! asset('theme/img/partnar/7.png') !!}" alt="partner">
                                 </a>
                             </div>
                             <div class="partner-item">
                                 <a href="#">
-                                    <img src="assets/img/partnar/8.png" alt="partner">
+                                    <img src="{!! asset('theme/img/partnar/8.png') !!}" alt="partner">
                                 </a>
                             </div>
                             <div class="partner-item">
                                 <a href="#">
-                                    <img src="assets/img/partnar/9.png" alt="partner">
+                                    <img src="{!! asset('theme/img/partnar/9.png') !!}" alt="partner">
                                 </a>
                             </div>
                             <div class="partner-item">
                                 <a href="#">
-                                    <img src="assets/img/partnar/10.png" alt="partner">
+                                    <img src="{!! asset('theme/img/partnar/10.png') !!}" alt="partner">
                                 </a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
         <!-- End Partner Two Area -->
 
         <!-- Start Solutions Section -->
