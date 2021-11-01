@@ -27,29 +27,32 @@ class WelcomeController extends Controller
         return view('contactus', compact('title', 'keywords', 'description'));
     }
 
-    public function sendcontactmail(Request $request)
-    {
+    public function contactPost(Request $request){
         $this->validate($request, [
                         'name' => 'required',
                         'email' => 'required|email',
-                        'comment' => 'required'
+                        'comments' => 'required'
                 ]);
 
+
         Mail::send('emails.contactus', [
-                'name' => $request->get('name'),
-                'email' => $request->get('email'),
-                'phone_number' => $request->get('phone_number'),
-                'subject' => $request->get('subject'),
-                'comment' => $request->get('comment') ],
+            'name' => $request->get('name'),
+            'email' => $request->get('email'),
+            'phone_number' => $request->get('phone_number'),
+            'subject' => $request->get('subject'),
+            'comment' => $request->get('comment') ],
+
+            ],
                 function ($message) {
                         $message->from('hello@logeaksolutions.com');
-                        $message->to('hello@logeaksolutions', 'name')
-                        ->subject('subject');
+                        $message->to('emmyabba@gmail.com', 'Peronal Website')
+                                ->subject('EmmanuelAbba.dev Contact Form');
         });
 
         return back()->with('success', 'Thanks for contacting me, I will get back to you soon!');
 
     }
+
     public function aboutus()
     {
         $description    = 'About us';
