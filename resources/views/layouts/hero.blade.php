@@ -8,7 +8,7 @@
                         <div class="hero-content">
                             {{-- <span>We are a startup Agency</span> --}}
                             <h1>Enabling innovation with <b>technology</b></h1>
-                            <p>We automate processes for businesses and academia with bespoke and turnkey IT solutions</p>
+                            <p>We automate processes for businesses and academia with bespoke and turnkey solutions</p>
                             <div class="startup-btn">
                                 <a href="#" class="startup-btn-one">
                                    Learn more <i class="fa fa-arrow-right"></i>

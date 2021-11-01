@@ -43,8 +43,8 @@ class WelcomeController extends Controller
                 'comment' => $request->get('comment') ],
                 function ($message) {
                         $message->from('hello@logeaksolutions.com');
-                        $message->to('hello@logeaksolutions', 'Your Name')
-                        ->subject('Your Website Contact Form');
+                        $message->to('hello@logeaksolutions', 'name')
+                        ->subject('subject');
         });
 
         return back()->with('success', 'Thanks for contacting me, I will get back to you soon!');
