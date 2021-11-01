@@ -51,9 +51,9 @@
         <section class="solutions-section ptb-100">
             <div class="container">
                 <div class="solutions-title">
-                    <span>What We do</span>
+                    <span></span>
                     <h3>Solutions tailored to fit your world</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolet, consectetur adipiscing  seore suspendisse ultrices gravir.</p>
+                    <p>We are a technology company that provide cutting edge solutions, helping organizations and individuals achieve more with Logeak as a trusted and valued partner</p>
                 </div>
 
                 <div class="row">
@@ -100,7 +100,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-md-12">
                         <div class="circulate-image">
-                            <img src="assets/img/about.jpg" alt="image">
+                            <img src="logostheme/img/about.jpg" alt="image">
                         </div>
                     </div>
 
@@ -228,7 +228,7 @@
 
                     <div class="col-lg-6 col-md-12">
                         <div class="grow-image">
-                            <img src="assets/img/grow.jpg" alt="image">
+                            <img src="logostheme/img/grow.jpg" alt="image">
                         </div>
                     </div>
                 </div>
@@ -242,7 +242,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-md-12">
                         <div class="develop-image">
-                            <img src="assets/img/develop.jpg" alt="image">
+                            <img src="logostheme/img/develop.jpg" alt="image">
                         </div>
                     </div>
 
@@ -306,7 +306,7 @@
                         <div class="blog-item">
                             <div class="blog-image">
                                 <a href="single-blog.html">
-                                    <img src="assets/img/blog/1.jpg" alt="image">
+                                    <img src="logostheme/img/blog/1.jpg" alt="image">
                                 </a>
                             </div>
                             <div class="single-blog-item">
@@ -336,7 +336,7 @@
                         <div class="blog-item">
                             <div class="blog-image">
                                 <a href="single-blog.html">
-                                    <img src="assets/img/blog/2.jpg" alt="image">
+                                    <img src="logostheme/img/blog/2.jpg" alt="image">
                                 </a>
                             </div>
                             <div class="single-blog-item">
@@ -366,7 +366,7 @@
                         <div class="blog-item">
                             <div class="blog-image">
                                 <a href="single-blog.html">
-                                    <img src="assets/img/blog/3.jpg" alt="image">
+                                    <img src="logostheme/img/blog/3.jpg" alt="image">
                                 </a>
                             </div>
                             <div class="single-blog-item">

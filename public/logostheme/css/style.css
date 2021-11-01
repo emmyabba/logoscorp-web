@@ -1896,7 +1896,7 @@ Video Section CSS
 =================================================*/
 .video-content {
   text-align: center;
-  background-image: url(../../assets/img/video-bg.jpg);
+  background-image: url(../../logostheme/img/video-bg.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -3001,7 +3001,7 @@ Marketing Home Area CSS
 =================================================*/
 .marketing-home-area {
   position: relative;
-  background-image: url(../../assets/img/marketing-agency-bg.jpg);
+  background-image: url(../../logostheme/img/marketing-agency-bg.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -4502,7 +4502,7 @@ Co-operative Section CSS
 
 .co-operative-content {
   text-align: center;
-  background-image: url(../../assets/img/video-bg-2.jpg);
+  background-image: url(../../logostheme/img/video-bg-2.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -5109,7 +5109,7 @@ Subscribe Two Section CSS
   padding-top: 100px;
   padding-bottom: 100px;
   background-color: #fd5a0e;
-  background-image: url(../../assets/img/subscribe-bg.jpg);
+  background-image: url(../../logostheme/img/subscribe-bg.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -5227,7 +5227,7 @@ SEO Agency Home Area CSS
 =================================================*/
 .seo-agency-home-area {
   position: relative;
-  background-image: url(../../assets/img/seo-agency-bg.png);
+  background-image: url(../../logostheme/img/seo-agency-bg.png);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -6422,7 +6422,7 @@ Page Title Area CSS
 .page-title-area {
   position: relative;
   z-index: 1;
-  background-image: url(../../assets/img/page-title-bg.jpg);
+  background-image: url(../../logostheme/img/page-title-bg.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -7057,7 +7057,7 @@ Coming Soon Area CSS
   position: relative;
   z-index: 1;
   height: 100vh;
-  background-image: url(../../assets/img/page-title-bg.jpg);
+  background-image: url(../../logostheme/img/page-title-bg.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -7971,15 +7971,15 @@ Sidebar Widget Area CSS
 }
 
 .widget-area .widget_zash_posts_thumb .item .thumb .fullimage.bg1 {
-  background-image: url(../../assets/img/blog-details/1.jpg);
+  background-image: url(../../logostheme/img/blog-details/1.jpg);
 }
 
 .widget-area .widget_zash_posts_thumb .item .thumb .fullimage.bg2 {
-  background-image: url(../../assets/img/blog-details/2.jpg);
+  background-image: url(../../logostheme/img/blog-details/2.jpg);
 }
 
 .widget-area .widget_zash_posts_thumb .item .thumb .fullimage.bg3 {
-  background-image: url(../../assets/img/blog-details/3.jpg);
+  background-image: url(../../logostheme/img/blog-details/3.jpg);
 }
 
 .widget-area .widget_zash_posts_thumb .item .info {
@@ -9539,7 +9539,7 @@ Checkout Area CSS
 Footer Section CSS
 =================================================*/
 .footer-section {
-  background-image: url(../../assets/img/footer-bg.jpg);
+  background-image: url(../../logostheme/img/footer-bg.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
