@@ -42,7 +42,6 @@ class WelcomeController extends Controller
             'subject' => $request->get('subject'),
             'comment' => $request->get('comment') ],
 
-            ],
                 function ($message) {
                         $message->from('hello@logeaksolutions.com');
                         $message->to('emmyabba@gmail.com', 'Peronal Website')
