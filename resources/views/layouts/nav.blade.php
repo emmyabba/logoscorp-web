@@ -38,7 +38,7 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="{{route('services')}}" class="nav-link">
                                 Services
                                 <i class="fa fa-angle-down"></i>
                             </a>
