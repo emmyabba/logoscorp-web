@@ -27,7 +27,7 @@ class WelcomeController extends Controller
         return view('contactus', compact('title', 'keywords', 'description'));
     }
 
-    public function contactPost(Request $request){
+    public function sendcontactmail(Request $request){
         $this->validate($request, [
                         'name' => 'required',
                         'email' => 'required|email',
@@ -50,6 +50,15 @@ class WelcomeController extends Controller
 
         return back()->with('success', 'Thanks for contacting me, I will get back to you soon!');
 
+    }
+
+    public function softwaredevelopment()
+    {
+        $description    = 'About us';
+        $keywords        = 'contact us';
+        $title          = 'About Us';
+
+        return view('contactus', compact('title', 'keywords', 'description'));
     }
 
     public function aboutus()
