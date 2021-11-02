@@ -4,49 +4,6 @@
 
 @include('layouts.hero')
 
-        <!-- Start Partner Two Area -->
-        {{-- <div class="partnar-two-section">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="appreciate">
-                            <h3>Our clients and partners</h3>
-                        </div>
-                    </div>
-                    <div class="col-lg-8">
-                        <div class="partner-slider owl-carousel owl-theme">
-                            <div class="partner-item">
-                                <a href="#">
-                                    <img src="{!! asset('theme/img/partnar/6.png') !!}" alt="partner">
-                                </a>
-                            </div>
-                            <div class="partner-item">
-                                <a href="#">
-                                    <img src="{!! asset('theme/img/partnar/7.png') !!}" alt="partner">
-                                </a>
-                            </div>
-                            <div class="partner-item">
-                                <a href="#">
-                                    <img src="{!! asset('theme/img/partnar/8.png') !!}" alt="partner">
-                                </a>
-                            </div>
-                            <div class="partner-item">
-                                <a href="#">
-                                    <img src="{!! asset('theme/img/partnar/9.png') !!}" alt="partner">
-                                </a>
-                            </div>
-                            <div class="partner-item">
-                                <a href="#">
-                                    <img src="{!! asset('theme/img/partnar/10.png') !!}" alt="partner">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> --}}
-        <!-- End Partner Two Area -->
-
         <!-- Start Solutions Section -->
         <section class="solutions-section ptb-100">
             <div class="container">

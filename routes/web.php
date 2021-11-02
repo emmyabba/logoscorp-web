@@ -19,4 +19,4 @@ Route::get('/contact-us', 'WelcomeController@contactus')->name('contactus');
 Route::post('/contact-us', 'WelcomeController@sendcontactmail')->name('sendcontactmail');
 Route::get('/about-us', 'WelcomeController@aboutus')->name('aboutus');
 Route::get('/services', 'WelcomeController@services')->name('services');
-Route::get('/services/software-development', 'WelcomeController@software')->name('services.software');
+Route::get('/services/software-development', 'WelcomeController@softwareservice')->name('services.software');

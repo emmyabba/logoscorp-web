@@ -52,13 +52,22 @@ class WelcomeController extends Controller
 
     }
 
-    public function softwaredevelopment()
+    public function services()
     {
-        $description    = 'About us';
-        $keywords        = 'contact us';
-        $title          = 'About Us';
+        $description    = 'Our Services';
+        $keywords        = 'elearning, website development, mobile application development, software, software development';
+        $title          = 'Our Services';
 
-        return view('contactus', compact('title', 'keywords', 'description'));
+        return view('services.index', compact('title', 'keywords', 'description'));
+    }
+
+    public function softwareservice()
+    {
+        $description    = 'Software development';
+        $keywords        = 'contact us';
+        $title          = 'Software development';
+
+        return view('services.software', compact('title', 'keywords', 'description'));
     }
 
     public function aboutus()
