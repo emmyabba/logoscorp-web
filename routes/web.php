@@ -20,3 +20,5 @@ Route::post('/contact-us', 'WelcomeController@sendcontactmail')->name('sendconta
 Route::get('/about-us', 'WelcomeController@aboutus')->name('aboutus');
 Route::get('/services', 'WelcomeController@services')->name('services');
 Route::get('/services/software-development', 'WelcomeController@softwareservice')->name('services.software');
+Route::get('/services/elearning', 'WelcomeController@elearningservice')->name('services.elearning');
+Route::get('/services/mobile-apps', 'WelcomeController@mobileappservice')->name('services.mobile');

@@ -45,12 +45,12 @@
     <body>
 
         <!-- Preloader Area -->
-        <div class="preloader-area">
+        {{-- <div class="preloader-area">
             <div class="spinner">
                 <div class="dot1"></div>
                 <div class="dot2"></div>
             </div>
-        </div>
+        </div> --}}
         <!-- End Preloader Area -->
 
  <!-- Start Navbar Area -->

@@ -28,25 +28,29 @@ class WelcomeController extends Controller
     }
 
     public function sendcontactmail(Request $request){
+
         $this->validate($request, [
                         'name' => 'required',
                         'email' => 'required|email',
-                        'comments' => 'required'
+                        'comment' => 'required',
+                        'budget' => 'required',
+                        'project_type' => 'required'
                 ]);
 
 
-        Mail::send('emails.contactus', [
+       $sent = Mail::send('emails.contactus', [
             'name' => $request->get('name'),
             'email' => $request->get('email'),
-            'phone_number' => $request->get('phone_number'),
-            'subject' => $request->get('subject'),
+            'project_type' => $request->get('project_type'),
+            'budget' => $request->get('budget'),
             'comment' => $request->get('comment') ],
 
                 function ($message) {
                         $message->from('hello@logeaksolutions.com');
                         $message->to('emmyabba@gmail.com', 'Peronal Website')
-                                ->subject('EmmanuelAbba.dev Contact Form');
+                                ->subject('LOGEAKSOLUTIONS Contact Form');
         });
+        dd('here');
 
         return back()->with('success', 'Thanks for contacting me, I will get back to you soon!');
 
@@ -64,8 +68,17 @@ class WelcomeController extends Controller
     public function softwareservice()
     {
         $description    = 'Software development';
-        $keywords        = 'contact us';
+        $keywords        = 'Software development';
         $title          = 'Software development';
+
+        return view('services.software', compact('title', 'keywords', 'description'));
+    }
+
+    public function elearningservice()
+    {
+        $description    = 'eLearning';
+        $keywords        = 'eLearning';
+        $title          = 'eLearning';
 
         return view('services.software', compact('title', 'keywords', 'description'));
     }
@@ -76,7 +89,7 @@ class WelcomeController extends Controller
         $keywords        = 'contact us';
         $title          = 'About Us';
 
-        return view('contactus', compact('title', 'keywords', 'description'));
+        return view('aboutus', compact('title', 'keywords', 'description'));
     }
 
 

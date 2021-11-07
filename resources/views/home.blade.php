@@ -21,7 +21,7 @@
                             </div>
                             <h3>eLearning </h3>
                             <p>Learning and development services such as instructional design, course development, and learning technologies like portals and content platforms</p>
-                            <a href="single-services.html" class="">Read More</a>
+                            <a href="{{route('services.elearning')}}" class="">Read More</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">

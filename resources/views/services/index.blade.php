@@ -10,7 +10,9 @@
             <div class="productive-title">
                 <span>Why Our services</span>
                 <h3>Our Productive Services is Ready</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolet, consectetur adipiscing  seore suspendisse ultrices gravir.</p>
+                <p>Logeak is an international contestant in software engineering with a wide-range of expertise in all the areas needed for reliable software development.
+                We provide cutting edge engineering solutions, helping clients untangle complex issues that always emerge during their digital evolution journey.
+                </p>
             </div>
 
             <div class="row">

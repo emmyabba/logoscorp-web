@@ -31,9 +31,8 @@
                             </a>
                             <ul class="dropdown-menu">
                                 <li class="nav-item">
-                                    <a href="" class="nav-link">About Us</a>
+                                    <a href="{{route('aboutus')}}" class="nav-link">About Us</a>
                                     <a href="{{route('contactus')}}" class="nav-link">Contact Us</a>
-                                    <a href="" class="nav-link">Our clients</a>
                                 </li>
                             </ul>
                         </li>
@@ -44,11 +43,9 @@
                             </a>
                             <ul class="dropdown-menu">
                                 <li class="nav-item">
-                                    <a href="" class="nav-link">Learning content</a>
-                                    <a href="" class="nav-link">Learning platforms</a>
-                                    <a href="" class="nav-link">Localization</a>
-                                    <a href="" class="nav-link">Web development</a>
-                                    <a href="" class="nav-link">Mobile apps</a>
+                                    <a href="{{route('services.elearning')}}" class="nav-link">elearning</a>
+                                    <a href="{{route('services.software')}}" class="nav-link">Software development</a>
+                                    <a href="{{route('services.mobile')}}" class="nav-link">Mobile apps</a>
                                 </li>
                             </ul>
                         </li>

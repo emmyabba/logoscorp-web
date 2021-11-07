@@ -48,41 +48,55 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="contact-form">
-                        <form id="" method="post" action="{{route('sendcontactmail')}}">
+                        <form method="POST" action="{{route('sendcontactmail')}}">
                             {{csrf_field()}}
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="form-group">
-                                    <input type="text" name="name" id="name" class="form-control" required data-error="Please enter your name" placeholder="Name">
-                                    <div class="help-block with-errors"></div>
+                                    <input type="text" name="name" id="name" class="form-control" data-error="Please enter your name" placeholder="Name">
+                                    <div class="help-block with-errors" style="color:red">{{ $errors->first('name') }}</div>
                                 </div>
                             </div>
 
                             <div class="col-lg-6">
                                 <div class="form-group">
-                                    <input type="email" name="email" id="email" class="form-control" required data-error="Please enter your email" placeholder="Email">
-                                    <div class="help-block with-errors"></div>
+                                    <input type="email" name="email" id="email" class="form-control" data-error="Please enter your email" placeholder="Email">
+                                    <div class="help-block with-errors" style="color:red">{{ $errors->first('email') }}</div>
                                 </div>
                             </div>
 
                             <div class="col-lg-6">
                                 <div class="form-group">
-                                    <input type="text" name="phone_number" id="phone_number" required data-error="Please enter your number" class="form-control" placeholder="Phone">
-                                    <div class="help-block with-errors"></div>
+                                <select name="project_type" id="project_type" data-error="Please enter your subject" class="form-control">
+                                        <option value=""> Project type </option>
+                                        <option>Web application</option>
+                                        <option>eLearning content</option>
+                                        <option>eLearning platform</option>
+                                        <option>Mobile application</option>
+                                        <option>Desktop application</option>
+                                    </select>
+                                    <div class="help-block with-errors" style="color:red">{{ $errors->first('project_type') }}</div>
                                 </div>
                             </div>
 
                             <div class="col-lg-6">
                                 <div class="form-group">
-                                    <input type="text" name="subject" id="subject" required data-error="Please enter your subject" class="form-control" placeholder="Subject">
-                                    <div class="help-block with-errors"></div>
+                                    <select name="budget" id="budget" data-error="Please enter your subject" class="form-control">
+                                    <option value=""> Budget </option>  
+                                    <option>Below $10,000 </option>  
+                                    <option>$10,000 - $30,000 </option>
+                                    <option>$40,000 - $70,000 </option>
+                                    <option>$80,000 - $100,000 </option>
+                                    <option>Above $100,000 </option>
+                                    </select>
+                                    <div class="help-block with-errors" style="color:red">{{ $errors->first('budget') }}</div>
                                 </div>
                             </div>
 
                             <div class="col-lg-12">
                                 <div class="form-group">
-                                    <textarea name="comment" class="form-control" id="comment" cols="30" rows="6" required data-error="Write your message" placeholder="Your Message"></textarea>
-                                    <div class="help-block with-errors"></div>
+                                    <textarea name="comment" class="form-control" id="comment" cols="30" rows="6" data-error="Write your message" placeholder="Project Summary"></textarea>
+                                    <div class="help-block with-errors" style="color:red">{{ $errors->first('comment') }}</div>
                                 </div>
                             </div>
 
