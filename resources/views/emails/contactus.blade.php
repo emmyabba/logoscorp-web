@@ -37,12 +37,14 @@ table, td, div, h1, p {font-family: Arial, sans-serif;}
                 <p style="margin:0 0 12px 0;font-size:16px;line-height:24px;font-family:Arial,sans-serif;">
                 You have received the following message from the website!<br>
 
-                <b>Email:</b>-----------------------------<br>{{ $email }}<br>
-                <b>Project type:</b>-----------------------------<br>{{ $project_type }}
-                <b>Budget:</b>-----------------------------<br>{{ $budget }}
-                <b>About project:</b>-----------------------------<br>{{ $comment }}
+                <b>Email:</b><br>{{ $email }}<br>
+                <b>Project type:</b><br>{{ $project_type }}<br>
+                <b>Budget:</b><br>{{ $budget }}<br>
+                <b>About project:</b><br>{{ $comment }}<br>
 
-                Take care!<br>
+                
+                <br>
+                ________________________________<br>Take care!<br>
             
             </p>
                

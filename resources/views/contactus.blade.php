@@ -47,6 +47,11 @@
 
         <div class="row">
             <div class="col-lg-12">
+            @if ($message = Session::get('success'))
+                    <div style="background-color:#C1FFC1;" align="center">
+                    <p>{{$message}}</p>
+                    </div>
+                @endif
                 <div class="contact-form">
                         <form method="POST" action="{{route('sendcontactmail')}}">
                             {{csrf_field()}}

@@ -50,9 +50,8 @@ class WelcomeController extends Controller
                         $message->to('emmyabba@gmail.com', 'Peronal Website')
                                 ->subject('LOGEAKSOLUTIONS Contact Form');
         });
-        dd('here');
 
-        return back()->with('success', 'Thanks for contacting me, I will get back to you soon!');
+        return back()->with('success', 'Thanks for contacting LOGEAK, We will reachout to you shortly!');
 
     }
 
