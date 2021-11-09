@@ -7,7 +7,7 @@ use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 
-class ContactusEmail extends Mailable
+class ContactusEmail_client extends Mailable
 {
     use Queueable, SerializesModels;
 
@@ -32,10 +32,10 @@ class ContactusEmail extends Mailable
     {
 
         $address = 'hello@logeaksolutions.com';
-        $subject = 'LOGEAK CONTACT FORM';
+        $subject = 'We got your message';
         $name = 'LOGEAK';
 
-        return $this->view('emails.contactus')
+        return $this->view('emails.contactus_client')
                     ->from($address, $name)
                     ->subject($subject);
     }

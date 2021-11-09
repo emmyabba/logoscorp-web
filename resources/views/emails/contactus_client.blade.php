@@ -25,7 +25,7 @@ table, td, div, h1, p {font-family: Arial, sans-serif;}
     <table role="presentation" style="width:602px;border-collapse:collapse;border:1px solid #cccccc;border-spacing:0;text-align:left;">
       <tr>
         <td align="center" style="padding:40px 0 30px 0;background:#70bbd9;">
-         <h3>{{ $data['project_type'] }} Inquiry</h3>
+         <h3>Dear {{$data['name']}},</h3>
         </td>
       </tr>
       <tr>
@@ -33,21 +33,14 @@ table, td, div, h1, p {font-family: Arial, sans-serif;}
           <table role="presentation" style="width:100%;border-collapse:collapse;border:0;border-spacing:0;">
             <tr>
               <td style="padding:0 0 36px 0;color:#153643;">
-                <h1 style="font-size:24px;margin:0 0 20px 0;font-family:Arial,sans-serif;">Hi Logean</h1>
+                <h3 style="font-size:24px;margin:0 0 20px 0;font-family:Arial,sans-serif;">Thank you for reaching out to us at <a href="www.logeaksolutions.com">logeak</a></h3>
                 <p style="margin:0 0 12px 0;font-size:16px;line-height:24px;font-family:Arial,sans-serif;">
-                You have received the following message from the website!<br>
-
-                <b>Email:</b><br>{{ $data['email'] }}<br>
-                <b>Project type:</b><br>{{ $data['project_type'] }}<br>
-                <b>Budget:</b><br>{{ $data['budget'] }}<br>
-                <b>About project:</b><br>{{ $data['comment'] }}<br>
-
-                
+               We have received your message, and will reachout to you shortly.  </p>
                 <br>
-                _________________________<br>Take care!<br>
-            
-            </p>
+                <p style="margin:0 0 12px 0;font-size:16px;line-height:24px;font-family:Arial,sans-serif;"> Thank you for choosing logeak!</p><br>
                
+                The LOGEAK team.
+            
               </td>
             </tr>
            

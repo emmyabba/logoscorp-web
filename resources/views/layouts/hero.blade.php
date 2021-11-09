@@ -10,10 +10,10 @@
                             <h1>Enabling innovation with <b>technology</b></h1>
                             <p>We automate processes for businesses and academia with bespoke and turnkey solutions</p>
                             <div class="startup-btn">
-                                <a href="#" class="startup-btn-one">
+                                <a href="{{route('services')}}" class="startup-btn-one">
                                    Learn more <i class="fa fa-arrow-right"></i>
                                 </a>
-                                <a href="" class="startup-btn-two popup-youtube">
+                                <a href="{{route('contactus')}}" class="startup-btn-two">
                                     Request quote
                                     <i class="fa fa-envelope"></i>
                                 </a>
