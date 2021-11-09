@@ -26,7 +26,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">About Us</a>
+                            <a href="{{route('aboutus')}}" class="nav-link">About Us</a>
                         </li>
                         <li class="nav-item">
                             <a href="{{route('services')}}" class="nav-link">
@@ -53,12 +53,9 @@
                                     <a href="" class="nav-link">Forte</a>
                                     <a href="" class="nav-link">Famz</a>
                                     <a href="" class="nav-link">CV Monger</a>
-
                                 </li>
-
                             </ul>
                         </li>
-
                     </ul>
                 </div>
             </nav>
